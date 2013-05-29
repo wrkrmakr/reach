@@ -6,19 +6,49 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <!-- Custom Scrollbars -->
+    <link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css">
     <!-- Custom CSS -->
     <link href="css/overall.css" rel="stylesheet" media="screen">
     <link href="css/coaches.css" rel="stylesheet" media="screen">
+
+    <style>
+      @font-face {
+        font-family: "Helvetica-Condensed";
+        /*src: url('../reach/fonts/HelveticaLTStd-BoldCond.ttf') format('truetype');
+        src: url('../reach/fonts/HelveticaLTStd-BoldCond.eot') format('embedded-opentype');*/
+        src: url('../reach/fonts/HelveticaLTStd-BoldCond.otf') format('opentype');  /* TTF file for CSS3 browsers */
+      }
+      @font-face {
+        font-family: "Gotham-Book";
+        src: url('../reach/fonts/gotham-book.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: "Gotham-Medium";
+        src: url('../reach/fonts/gotham-medium.ttf') format('truetype');
+      }
+    </style>
 
     <!-- JQuery -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/main.js"></script>
   </head>
   <body>
     <div id="bgimage"></div>
     <div id="logo">
       <p><a href="index.html"><span id="logoR">reach </span><span id="logoP">|</span><span id="logoT"> training</span></a></p>
+    </div>
+    <div class="contentContainer">
+      <div class="contentBox">
+        <h1><span class="orangeText">BEN</span> CLARFIELD</h1>
+        <br />
+        <p>
+          Ben believes that achieving goals is dependent on both physical and mental strength. Ben helps his clients lose fat, rehabilitate injuries, build muscle and improve their strength. Ben is a Level II P.I.C.P. regional strength coach andBioSignature practitioner.
+        </p>
+      </div>
     </div>
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
@@ -33,12 +63,20 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">SERVICES</a>
                 <ul class="dropdown-menu">
-                  <li><a href="services.html">service1</a><li>
-                  <li><a href="#">test2</a><li>
-                  <li><a href="#">test3</a><li>
+                  <li><a href="services.html">One-On-One Training</a><li>
+                  <li><a href="#">Duo Training</a><li>
+                  <li><a href="#">Group Sessions</a><li>
+                  <li><a href="#">BioSignature Modulation&#8482;</a><li>
                 </ul>
               </li>
-              <li><a href="treatment.html" id="treatment">TREATMENT</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">TREATMENT</a>
+                <ul class="dropdown-menu">
+                  <li><a href="treatment.html">Massage Therapy</a><li>
+                  <li><a href="#">Fascial Stretch Therapy</a><li>
+                  <li><a href="#">Far infrared Sauna (FIR)</a><li>
+                </ul>
+              </li>
               <li><a href="coaches.html" id="coaches">COACHES</a></li>
               <li><a href="community.html" id="community">COMMUNITY</a></li>
               <li><a href="contact.html" id="contact">CONTACT US</a></li>

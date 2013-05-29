@@ -1,3 +1,10 @@
 #bgimage {
 	background-image:url(../img/services.jpg);
 }
+.contentContainer{
+	position:absolute;
+	top:45%;
+	left:44%;
+	height:40%;
+	width:44%;
+}

@@ -13,6 +13,7 @@ a:focus {
 	text-decoration: none;
 	outline:none;
 }
+
 /*--------BG IMAGE---------*/
 #bgimage {
 	background-size:100% 100%;
@@ -20,6 +21,7 @@ a:focus {
 	height:100%;
 	z-index: 100;
 }
+
 /*--------LOGO---------*/
 #logo {
 	z-index: 1000;
@@ -36,15 +38,44 @@ a:focus {
 #logoP {
 	font-family: times;
 }
+
 /*--------ORANGE TEXT---------*/
 .orangeText{
 	color: #FF7F00;
 }
+
 /*--------CONTENT BOX---------*/
 .contentContainer{
 	background-color: rgba(255,255,255,0.8);
 	border-bottom:10px solid #FF7F00;
 }
+.contentBox{
+	position: absolute;
+	top:12%;
+	left:4%;
+	overflow-y: auto;
+	width: 93%;
+	height: 80%;
+}
+.contentBox h1{
+	position: relative;
+	top:5px;
+	font-size: 50px;
+	font-weight: 400;
+	vertical-align: bottom;
+	font-family: "Helvetica-Condensed", sans-serif;
+	letter-spacing: 1px;
+}
+.contentBox p{
+	font-size: 25px;
+	line-height: 30px;
+	margin-left: 5px;
+	font-family: "Gotham-Book", sans-serif;
+}
+.contentPoints{
+	font-family: "Gotham-Medium", sans-serif !important;
+}
+
 /*--------NAV BAR---------*/
 .navbar{
 	z-index: 999;
@@ -66,8 +97,12 @@ a:focus {
 .navbar .nav > li{
 	font-family: "Helvetica-Condensed", sans-serif;
 	letter-spacing: 1px;
-
 }
+.navbar-inverse .nav li.dropdown.open>.dropdown-toggle{
+	background-color: rgb(0,0,0);
+}
+
+/*--------- DROPDOWN----------*/
 .navbar .nav .dropdown ul{
 	font-family: "Helvetica", sans-serif;
 }
@@ -75,6 +110,30 @@ a:focus {
 .navbar .pull-right>li>.dropdown-menu:after,
 .navbar .nav>li>.dropdown-menu.pull-right:after {
 	display: none;
+}
+
+.navbar .pull-right>li>.dropdown-menu{
+	right: auto;
+	top: 63px;
+	width: 320px;
+	border-radius: 0;
+	font-size: 20px;
+}
+.navbar .pull-right>li>.dropdown-menu li{
+	margin-top: 15px;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu > li > a:hover,
+.dropdown-submenu > li > a:focus
+{
+	color: #333;
+	text-decoration: none;
+	background-color: white;
+	background-image: none;
+	border-left: 5px solid #FF7F00;
+	padding-left: 15px;
 }
 
 @media(max-width : 1274px) and (orientation:landscape){

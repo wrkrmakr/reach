@@ -1,3 +1,10 @@
 #bgimage {
 	background-image:url(../img/coaches.jpg);
 }
+.contentContainer{
+	position:absolute;
+	top:40%;
+	left:30%;
+	height:30%;
+	width:25%;
+}
