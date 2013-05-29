@@ -1,3 +1,36 @@
 #bgimage {
 	background-image:url(../img/home.jpg);
 }
+.contentContainer{
+	position:absolute;
+	top:45%;
+	left:44%;
+	height:40%;
+	width:44%;
+}
+.contentBox{
+	position: absolute;
+	top:12%;
+	left:4%;
+	overflow-y: auto;
+	width: 93%;
+	height: 80%;
+}
+.contentBox h1{
+	position: relative;
+	top:5px;
+	font-size: 50px;
+	font-weight: 400;
+	vertical-align: bottom;
+	font-family: "Helvetica-Condensed", sans-serif;
+	letter-spacing: 1px;
+}
+.contentBox p{
+	font-size: 25px;
+	line-height: 30px;
+	margin-left: 5px;
+	font-family: "Gotham-Book", sans-serif;
+}
+.contentPoints{
+	font-family: "Gotham-Medium", sans-serif !important;
+}

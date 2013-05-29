@@ -14,31 +14,18 @@ a,
 a:visited,
 a:hover,
 a:focus {
-  color: white;
-  text-decoration: none;
-  outline:none;
+	color: white;
+	text-decoration: none;
+	outline:none;
 }
+/*--------BG IMAGE---------*/
 #bgimage {
 	background-size:100% 100%;
 	width:100%;
 	height:100%;
 	z-index: 100;
 }
-.navbar{
-	z-index: 999;
-}
-.navbar-inner{
-	height:100px;
-	background-color: rgb(0,0,0);
-	opacity: 0.8;
-}
-.navbar .nav{
-	font-size: 27px;
-	opacity: 1 !important;
-	margin-top: 30px;
-	margin-right: 30px !important;
-	font-family: "Helvetica-Condensed Bold",sans-serif;
-}
+/*--------LOGO---------*/
 #logo {
 	z-index: 1000;
 	position: fixed;
@@ -53,4 +40,40 @@ a:focus {
 }
 #logoP {
 	font-family: times;
+}
+/*--------ORANGE TEXT---------*/
+.orangeText{
+	color: #FF7F00;
+}
+/*--------CONTENT BOX---------*/
+.contentContainer{
+	background-color: rgba(255,255,255,0.8);
+	border-bottom:10px solid #FF7F00;
+}
+/*--------NAV BAR---------*/
+.navbar{
+	z-index: 999;
+}
+.navbar-inner{
+	height:100px;
+	background-color: rgb(0,0,0);
+	opacity: 0.8;
+}
+.container-fluid{
+	height:100px;
+	background-color: rgb(0,0,0);
+}
+.navbar .nav{
+	font-size: 27px;
+	opacity: 1 !important;
+	margin-top: 35px;
+	margin-right: 30px !important;
+}
+.navbar .nav > li{
+	margin-right: 30px;
+	font-family: "Helvetica-Condensed", sans-serif;
+	letter-spacing: 1px;
+}
+.navbar .nav .dropdown ul{
+	font-family: "Helvetica", sans-serif;
 }
