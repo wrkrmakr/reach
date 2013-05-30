@@ -1,8 +1,7 @@
-#bgimage {
+body{
 	background-image:url(../img/contactus.jpg);
-	background-size:100% 100%;
-	width:100%;
-	height:100%;
+	background-size: 100% 100%;	
+	
 }
 #leftCont{
 	position: relative;
@@ -13,6 +12,14 @@
 	position: relative;
 	left: 0px;
 	top: 150px;
+}
+#imageContainer{
+	position:absolute;
+	left:0;
+	right:0;
+	width:100%;
+	height:100%;
+	background-color:#000;
 }
 
 #googleMapCont{
@@ -88,3 +95,15 @@ padding-left:0;
 	
 }
  
+@media (min-width: 1200px) { ... }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 769px) and (max-width: 979px) { ... }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) { 
+
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }
