@@ -1,3 +1,21 @@
 #bgimage {
 	background-image:url(../img/contactus.jpg);
 }
+
+#contactInfoCont{
+	position: relative;
+	left: 0%:
+	top: 0%;
+	width: 50%;
+	height:100%;
+}
+#googleMapCont{
+	position: relative;
+	left: 20%;
+	top: 25%;
+	width: 60%;
+	height: 40%;
+	background-color:#666;
+	
+	
+}
