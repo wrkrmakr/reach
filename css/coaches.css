@@ -10,47 +10,47 @@
 }
 
 #coach ul{
-	position:absolute;
-	top:100px;
+/*	position:absolute;*/
+/*	top:30%;*/
 	width:100%;
 }
 
 #coach #craig{
-	position:absolute;
-	left:0;
-	top:100px;
+	position:fixed;
+	left:3%;
+	top:150px;
 	float:left;
 	list-style-type:none;
 }
 
 #coach #jacob{
-	position:absolute;
+	position:fixed;
 	left:25%;
-	top:100px;
+	top:150px;
 	float:left;
 	list-style-type:none;
 }
 
 #coach #adena{
-	position:absolute;
-	left:45%;
-	top:100px;
+	position:fixed;
+	right:39%;
+	top:150px;
 	float:left;
 	list-style-type:none;
 }
 
 #coach #ben{
-	position:absolute;
-	left:60%;
-	top:100px;
+	position:fixed;
+	right:20%;
+	top:150px;
 	float:left;
 	list-style-type:none;
 }
 
 #coach #heather{
-	position:absolute;
-	left:70%;
-	top:100px;
+	position:fixed;
+	right:3%;
+	top:150px;
 	float:left;
 	list-style-type:none;
 }
