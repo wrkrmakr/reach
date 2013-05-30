@@ -8,3 +8,9 @@
 	height:30%;
 	width:25%;
 }
+
+#coaches {
+	position:absolute;
+	top:100px;
+	width:100%;
+}
