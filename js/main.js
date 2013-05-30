@@ -1,4 +1,4 @@
-(function($){
+$(document).ready(function(){
 	$(window).load(function(){
 		$(".contentBox").mCustomScrollbar({theme:"dark"});
 		$('#form1Submit').click(function(){
@@ -10,4 +10,4 @@
 			$(this).css('cursor','default');			
 		});		
 	});
-})(jQuery);
+});
