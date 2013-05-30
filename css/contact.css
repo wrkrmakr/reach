@@ -1,25 +1,21 @@
 #bgimage {
 	background-image:url(../img/contactus.jpg);
 }
-
-#contactInfoCont{
+#leftCont{
 	position: relative;
-	left: 0%:
-	top: 0%;
-	width: 50%;
-	height:100%;
+	left: 100px;
+	top: 150px;
 }
+
 #googleMapCont{
-	position: absolute;
-	left: 20%;
-	top: 25%;
-	width: 60%;
-	height: 35%;
-	background-color:#666;
+	background-color:#999;
+	width:250px;
+	height:250px;
+	
 }
 #infoCont{
 	position: absolute;
-	left: 20%;
+	left: 10%;
 	top: 60%;
 	width: 60%;
 	height: 30%;
@@ -36,6 +32,10 @@
 	color: rgb(255,255,255);
 	font-family: "Helvetica-Condensed", sans-serif;
 	font-size:18px;
-	
+}
+#formCont{
+	position:absolute;
+	left:50%;
+	top:25%;
 	
 }
