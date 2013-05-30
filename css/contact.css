@@ -6,10 +6,15 @@
 	left: 100px;
 	top: 150px;
 }
+#rightCont{
+	position: relative;
+	left: 60px;
+	top: 150px;
+}
 
 #googleMapCont{
 	background-color:#999;
-	width:250px;
+	width:300px;
 	height:250px;
 	
 }
@@ -33,9 +38,32 @@
 	font-family: "Helvetica-Condensed", sans-serif;
 	font-size:18px;
 }
-#formCont{
-	position:absolute;
-	left:50%;
-	top:25%;
-	
+
+input[type="text"]{
+	background-color:rgba(0,0,0,0.8);
+	height:30px;
+	padding: 5px 8px;
+	font-family: "Helvetica-Condensed", sans-serif;
+	letter-spacing: 1px;
+	font-weight: 900;
+	width: 200px;
+	color:white;
+	border-radius:0;
+	padding: 5px 8px;
+	font-weight: bold;
+	font-size:16px;
 }
+textarea{
+	background-color:rgba(0,0,0,0.8);
+	width: 350px;
+	color:white;
+	border-radius:0;
+	font-family: "Helvetica-Condensed", sans-serif;
+	font-weight: bold;
+	font-size:16px;
+}
+input:-moz-placeholder,textarea:-moz-placeholder{color:#fff}
+input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#ff}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#fff}
+
+ 
