@@ -16,6 +16,8 @@
 }
 
 #googleMapCont{
+	background-image:url(../img/map.jpg);
+	background-size: 100% 100%;
 	background-color:#999;
 	width:300px;
 	height:250px;
