@@ -65,6 +65,11 @@ textarea{
 	font-weight: bold;
 	font-size:16px;
 }
+#form1Submit{
+	position:relative;
+	left:292px;	
+	
+}
 input:-moz-placeholder,textarea:-moz-placeholder{color:#fff}
 input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#ff}
 input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#fff}
