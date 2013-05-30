@@ -104,7 +104,7 @@ a:focus {
 
 /*--------- DROPDOWN----------*/
 .navbar .nav .dropdown ul{
-	font-family: "Helvetica", sans-serif;
+	font-family: "Helvetica-Condensed", sans-serif;
 }
 .navbar .nav>li>.dropdown-menu:before,
 .navbar .pull-right>li>.dropdown-menu:after,
