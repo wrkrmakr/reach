@@ -10,12 +10,32 @@
 	height:100%;
 }
 #googleMapCont{
-	position: relative;
+	position: absolute;
 	left: 20%;
 	top: 25%;
 	width: 60%;
-	height: 40%;
+	height: 35%;
 	background-color:#666;
+}
+#infoCont{
+	position: absolute;
+	left: 20%;
+	top: 60%;
+	width: 60%;
+	height: 30%;
+}
+.textLabel{
+	color: rgb(255,127,0);
+	text-transform:uppercase;
+	font-weight: bold;
+	font-family: "Helvetica-Condensed", sans-serif;
+	font-size:20px;
+	letter-spacing:1px;
+}
+.textInfo{
+	color: rgb(255,255,255);
+	font-family: "Helvetica-Condensed", sans-serif;
+	font-size:18px;
 	
 	
 }
