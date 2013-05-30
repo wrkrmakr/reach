@@ -23,32 +23,52 @@
 	list-style-type:none;
 }
 
-#coach #craig{
+#craig{
 	position:fixed;
 	left:3%;
 	width:27%;
 }
 
-#coach #jacob{
+#craig.hover{
+	top:20%;
+}
+
+#jacob{
 	position:fixed;
 	left:20%;
 	width:27%;
 }
 
-#coach #adena{
+#jacob.hover{
+	
+}
+
+#adena{
 	position:fixed;
 	left:36%;
 	width:27%;
 }
 
-#coach #ben{
+#adena.hover{
+	
+}
+
+#ben{
 	position:fixed;
 	left:53%;
 	width:27%;
 }
 
-#coach #heather{
+#ben.hover{
+	
+}
+
+#heather{
 	position:fixed;
 	left:70%;
 	width:27%;
+}
+
+#heather.hover{
+	
 }
