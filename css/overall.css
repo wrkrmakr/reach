@@ -76,6 +76,12 @@ a:focus {
 .contentPoints{
 	font-family: "Gotham-Medium", sans-serif !important;
 }
+.contentLink:visited,
+.contentLink:hover,
+.contentLink:focus{
+	color: #FF7F00;
+	text-decoration: underline;
+}
 
 /*--------NAV BAR---------*/
 .navbar{
