@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	var currentTreatment = getUrlVars()["id"];
-	if (currentTreatment != 1 && currentTreatment != 2 && currentTreatment != 3 && currentTreatment != 4){
+	if (currentTreatment != 1 && currentTreatment != 2 && currentTreatment != 3){
 		currentTreatment = 1;
 	}
 	$('.contentBox').hide();
@@ -22,4 +22,27 @@ $(document).ready(function(){
 	    });
 	    return vars;
 	}
+	$(".arrow").hover(function(){
+		$(this).attr('src', ('img/Arrows/' + $(this).attr('id') + 'Rollover.png'));
+	},
+	function(){
+		$(this).attr('src', ('img/Arrows/' + $(this).attr('id') + '.png'));
+	});
+
+	$("#leftscroll").click(function(){
+		if (currentTreatment > 1) {
+			currentTreatment--;
+			$('.contentBox:visible').hide("fade",200,function(){
+				$("#treatment"+currentTreatment).show("fade",200);
+			});
+		}
+	});
+	$("#rightscroll").click(function(){
+		if (currentTreatment < 3) {
+			currentTreatment++;
+			$('.contentBox:visible').hide("fade",200,function(){
+				$("#treatment"+currentTreatment).show("fade",200);
+			});
+		}
+	});
 });

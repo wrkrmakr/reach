@@ -22,4 +22,28 @@ $(document).ready(function(){
 	    });
 	    return vars;
 	}
+
+	$(".arrow").hover(function(){
+		$(this).attr('src', ('img/Arrows/' + $(this).attr('id') + 'Rollover.png'));
+	},
+	function(){
+		$(this).attr('src', ('img/Arrows/' + $(this).attr('id') + '.png'));
+	});
+
+	$("#leftscroll").click(function(){
+		if (currentService > 1) {
+			currentService--;
+			$('.contentBox:visible').hide("fade",200,function(){
+				$("#service"+currentService).show("fade",200);
+			});
+		}
+	});
+	$("#rightscroll").click(function(){
+		if (currentService < 4) {
+			currentService++;
+			$('.contentBox:visible').hide("fade",200,function(){
+				$("#service"+currentService).show("fade",200);
+			});
+		}
+	});
 });
