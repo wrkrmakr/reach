@@ -9,9 +9,6 @@ $(document).ready(function(){
 		},function(){
 			$(this).css('cursor','default');			
 		});	
-		$('#coach li').hover(function(){
-			console.log('Hi');	
-					
-		});	
+		
 	});
 });
