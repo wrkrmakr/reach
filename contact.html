@@ -85,10 +85,10 @@
             </span>
     	</div>
    		<div id="rightCont" class="span7">
-   			<form class="form-horizontal" action="validateForm.php" name="form1" >
-                <input type="text" id="name" placeholder="NAME"><br /><br />
-                <input type="text" id="inputEmail" placeholder="EMAIL"><br /><br />
-                <textarea rows="10" placeholder="MESSAGE"></textarea><br />
+   			<form class="form-horizontal" action="validateForm.php" method="post" name="form1" >
+                <input type="text" name="name" placeholder="NAME"><br /><br />
+                <input type="text" name="inputEmail" placeholder="EMAIL"><br /><br />
+                <textarea rows="10" name="message" placeholder="MESSAGE"></textarea><br />
             </form>
     		<div class="textLabel" id="form1Submit">Submit</div>
     	 </div>
