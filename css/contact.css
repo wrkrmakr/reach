@@ -1,6 +1,6 @@
-body{
+#bgimage{
 	background-image:url(../img/contactus.jpg);
-	background-size: cover;	
+	/*background-size: cover;*/
 }
 #contentWrap{
 	position: absolute;
@@ -10,19 +10,19 @@ body{
 	height:100%;
 	
 }
+
 #leftCont{
-	position: absolute;
+	position: relative;
 	left: 10%;
 	top: 20%;
-	width: 40%;
+	/*width: 40%;*/
 }
 #rightCont{
-	position: absolute;
-	left: 50%;
+	position: relative;
+	left: 0%;
 	top: 20%;
-	width: 60%;	
+	/*width: 60%;*/	
 }
-
 
 #googleMapCont{
 	background-image:url(../img/map.jpg);
@@ -95,7 +95,7 @@ padding-right:0;
 padding-left:0;	
 	
 }
-
+/*
 @media (min-width: 769px) and (max-width: 979px) {
 	#leftCont{
 		left: 3%;
@@ -152,9 +152,9 @@ padding-left:0;
 	}
 	
  }
- 
+*/ 
 /* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
 	#leftCont{
 		left: 3%;
 		top: 20%;
@@ -208,6 +208,6 @@ padding-left:0;
 
 
 }
- 
+*/
 /* Landscape phones and down */
 @media (max-width: 480px) { ... }
