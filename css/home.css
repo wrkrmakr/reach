@@ -1,5 +1,11 @@
-#bgimage {
-	background-image:url(../img/home.jpg);
+#homeCarousel,
+.homeBG {
+	width:100%;
+	height:100%;
+	z-index: 0;
+	top:0;
+	bottom: 0;
+	position: fixed
 }
 .contentContainer{
 	position:absolute;
