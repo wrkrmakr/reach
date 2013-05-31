@@ -1,13 +1,16 @@
 #bgimage {
 	background-image:url(../img/coaches_bg.jpg);
 }
+
 .contentContainer{
-	
-	displposition:absolute;
-	top:40%;
-	left:30%;
-	height:30%;
-	width:25%;
+	position:absolute;
+	display:none;
+	top:45%;
+	left:44%;
+	height:40%;
+	width:44%;
+	background-color: rgba(255,255,255,0.8);
+	border-bottom:10px solid #FF7F00;
 }
 
 #coach ul{
@@ -52,8 +55,4 @@
 	position:fixed;
 	left:80%;
 	width:20%;
-}
-
-#heather.hover{
-	
 }
