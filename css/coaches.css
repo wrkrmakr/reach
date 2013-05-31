@@ -3,18 +3,15 @@
 }
 
 .contentContainer{
-	displposition:absolute;
+	position:absolute;
 	top:45%;
 	left:44%;
 	height:40%;
 	width:44%;
-}
-
-.contentContainer{
 	background-color: rgba(255,255,255,0.8);
 	border-bottom:10px solid #FF7F00;
 }
-.contentBox{
+/*.contentBox{
 	position: absolute;
 	top:12%;
 	left:4%;
@@ -22,7 +19,7 @@
 	width: 93%;
 	height: 80%;
 }
-
+*/
 #coach ul{
 /*	position:absolute;*/
 /*	top:30%;*/
@@ -68,5 +65,5 @@
 }
 
 #heather.hover{
-	
+
 }
