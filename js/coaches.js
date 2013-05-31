@@ -1,23 +1,33 @@
 // JavaScript Document
 
 $(document).ready(function() {
+	
 	$('#coach li img').hover(function(){
-		//var currentImageId=$(this).attr('id');
-		//console.log(currentImageId);
+		var isCoachMoving=false;
+		var currentImageId=$(this).attr('id');
 		if(currentImageId<=3){
-			$(this).parent().animate({left: '+=25'},500);
+			$(this).parent().stop(true,false).animate({left: '+=8'},300,function(){
+				isCoachMoving=true;					
+			});
 		}
-		if(currentImageId>3){
-			$(this).parent().animate({right: '+=25'},500);
+		if(currentImageId>3) {
+			$(this).parent().stop(true,false).animate({left: '-=8'},300,function(){
+				isCoachMoving=true;		
+			});
 		}
+		
 	},function(){
-		/*var currentImageId=$(this).attr('id');
+		var currentImageId=$(this).attr('id');
 		if(currentImageId<=3){
-			$(this).parent().animate({left: '-=25'},500);
-		}
-		if(currentImageId>3){
-			$(this).parent().animate({right: '-=25'},500);
-		}*/
+				$(this).parent().stop(true,false).animate({left: '-=8'},300,function(){
+					isCoachMoving = false;					
+				});
+			}
+			if(currentImageId>3){
+				$(this).parent().stop(true,false).animate({left: '+=8'},300,function(){
+				isCoachMoving = false;				
+				});
+			}
 		
 	});
     
