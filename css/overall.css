@@ -157,8 +157,19 @@ a:focus {
 	padding-left: 15px;
 }
 
+@media(max-width : 1500px) and (orientation:landscape){
+	.navbar .nav{
+		font-size: 20px;
+	}
+}
+
+@media(max-width : 1300px) and (orientation:landscape){
+	.navbar .nav{
+		font-size: 17px;
+	}
+}
 @media(max-width : 1274px) and (orientation:landscape){
-	.nav-collapse {
+/*	.nav-collapse {
 		-webkit-transform: translate3d(0, 0, 0);
 		height: auto;
 		width: 40%;
@@ -198,4 +209,5 @@ a:focus {
 	.nav-collapse .nav > li {
 		float: none;
 	}
+*/
 }
