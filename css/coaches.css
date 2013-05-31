@@ -4,11 +4,10 @@
 
 .contentContainer{
 	position:absolute;
-	display:none;
 	top:45%;
 	left:44%;
 	height:40%;
-	width:44%;
+	width:25%;
 	background-color: rgba(255,255,255,0.8);
 	border-bottom:10px solid #FF7F00;
 }
