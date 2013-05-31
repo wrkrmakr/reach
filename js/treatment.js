@@ -4,15 +4,35 @@ $(document).ready(function(){
 		currentTreatment = 1;
 	}
 	$('.contentBox').hide();
+	$('.bgimage').hide();
 	$("#treatment"+currentTreatment).show();
+	$("#bgimage"+currentTreatment).show();
 
 	$(".treatmentLink").click(function(){
 		if (currentTreatment != $(this).attr('id')){
 			currentTreatment = $(this).attr('id');
-			$('.contentBox:visible').hide("fade",200,function(){
-				$("#treatment"+currentTreatment).show("fade",200);
-			});
+			changeContent();
 		}
+	});
+
+	$("#leftscroll").click(function(){
+		if (currentTreatment > 1) {
+			currentTreatment--;
+			changeContent();
+		}
+	});
+	$("#rightscroll").click(function(){
+		if (currentTreatment < 3) {
+			currentTreatment++;
+			changeContent();
+		}
+	});
+
+	$(".arrow").hover(function(){
+		$(this).attr('src', ('img/Arrows/' + $(this).attr('id') + 'Rollover.png'));
+	},
+	function(){
+		$(this).attr('src', ('img/Arrows/' + $(this).attr('id') + '.png'));
 	});
 
 	function getUrlVars() {
@@ -22,27 +42,13 @@ $(document).ready(function(){
 	    });
 	    return vars;
 	}
-	$(".arrow").hover(function(){
-		$(this).attr('src', ('img/Arrows/' + $(this).attr('id') + 'Rollover.png'));
-	},
-	function(){
-		$(this).attr('src', ('img/Arrows/' + $(this).attr('id') + '.png'));
-	});
 
-	$("#leftscroll").click(function(){
-		if (currentTreatment > 1) {
-			currentTreatment--;
-			$('.contentBox:visible').hide("fade",200,function(){
-				$("#treatment"+currentTreatment).show("fade",200);
-			});
-		}
-	});
-	$("#rightscroll").click(function(){
-		if (currentTreatment < 3) {
-			currentTreatment++;
-			$('.contentBox:visible').hide("fade",200,function(){
-				$("#treatment"+currentTreatment).show("fade",200);
-			});
-		}
-	});
+	function changeContent() {
+		$('.contentBox:visible').hide("fade",200,function(){
+			$("#treatment"+currentTreatment).show("fade",200);
+		});
+		$('.bgimage:visible').hide(0,function(){
+			$("#bgimage"+currentTreatment).show("fade",400);
+		});
+	}
 });

@@ -4,15 +4,35 @@ $(document).ready(function(){
 		currentService = 1;
 	}
 	$('.contentBox').hide();
+	$('.bgimage').hide();
 	$("#service"+currentService).show();
+	$("#bgimage"+currentService).show();
 
 	$(".serviceLink").click(function(){
 		if (currentService != $(this).attr('id')){
 			currentService = $(this).attr('id');
-			$('.contentBox:visible').hide("fade",200,function(){
-				$("#service"+currentService).show("fade",200);
-			});
+			changeContent();
 		}
+	});
+
+	$("#leftscroll").click(function(){
+		if (currentService > 1) {
+			currentService--;
+			changeContent();
+		}
+	});
+	$("#rightscroll").click(function(){
+		if (currentService < 4) {
+			currentService++;
+			changeContent();
+		}
+	});
+
+	$(".arrow").hover(function(){
+		$(this).attr('src', ('img/Arrows/' + $(this).attr('id') + 'Rollover.png'));
+	},
+	function(){
+		$(this).attr('src', ('img/Arrows/' + $(this).attr('id') + '.png'));
 	});
 
 	function getUrlVars() {
@@ -23,27 +43,12 @@ $(document).ready(function(){
 	    return vars;
 	}
 
-	$(".arrow").hover(function(){
-		$(this).attr('src', ('img/Arrows/' + $(this).attr('id') + 'Rollover.png'));
-	},
-	function(){
-		$(this).attr('src', ('img/Arrows/' + $(this).attr('id') + '.png'));
-	});
-
-	$("#leftscroll").click(function(){
-		if (currentService > 1) {
-			currentService--;
-			$('.contentBox:visible').hide("fade",200,function(){
-				$("#service"+currentService).show("fade",200);
-			});
-		}
-	});
-	$("#rightscroll").click(function(){
-		if (currentService < 4) {
-			currentService++;
-			$('.contentBox:visible').hide("fade",200,function(){
-				$("#service"+currentService).show("fade",200);
-			});
-		}
-	});
+	function changeContent() {
+		$('.contentBox:visible').hide("fade",200,function(){
+			$("#service"+currentService).show("fade",200);
+		});
+		$('.bgimage:visible').hide(0,function(){
+			$("#bgimage"+currentService).show("fade",400);
+		});
+	}
 });

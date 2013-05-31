@@ -1,6 +1,13 @@
-#bgimage {
-	background-image:url(../img/treatments.jpg);
+#bgimage1 {
+	background-image:url(../img/Treatment/treatments.jpg);
 }
+#bgimage2 {
+	background-image:url(../img/Treatment/Fascial-Stretch-Therapy.jpg);
+}
+#bgimage3 {
+	background-image:url(../img/Treatment/Far-Infrared-Sauna.jpg);
+}
+
 .contentContainer{
 	position:absolute;
 	top:45%;

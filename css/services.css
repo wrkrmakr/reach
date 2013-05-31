@@ -1,6 +1,16 @@
-#bgimage {
-	background-image:url(../img/services.jpg);
+#bgimage1 {
+	background-image:url(../img/Services/1-on-1.jpg);
 }
+#bgimage2 {
+	background-image:url(../img/Services/2on1.jpg);
+}
+#bgimage3 {
+	background-image:url(../img/Services/Group-Session.jpg);
+}
+#bgimage4 {
+	background-image:url(../img/Services/Bio-Modulation.jpg);
+}
+
 .contentContainer{
 	position:absolute;
 	top:45%;
