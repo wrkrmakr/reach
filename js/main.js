@@ -8,6 +8,10 @@ $(document).ready(function(){
 			$(this).css('cursor','pointer');	
 		},function(){
 			$(this).css('cursor','default');			
-		});		
+		});	
+		$('#coach li').hover(function(){
+			console.log('Hi');	
+					
+		});	
 	});
 });
