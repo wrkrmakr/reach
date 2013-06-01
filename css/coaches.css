@@ -1,14 +1,19 @@
-.bgimage {
+body{
+	background-image:url(../img/coaches_bg.jpg);
+	background-size:cover;
+	
+}
+
+#bgimage {
 	background-image:url(../img/coaches_bg.jpg);
 }
 
 .contentContainer{
 	position:absolute;
-	display:none;
 	top:45%;
 	left:44%;
-	height:40%;
-	width:44%;
+	height:47%;
+	width:22%;
 	background-color: rgba(255,255,255,0.8);
 	border-bottom:10px solid #FF7F00;
 }
@@ -19,16 +24,17 @@
 /*	width:100%;*/
 }
 
-#coach {
+/*#coach {
 	position:absolute;
-	top:150px;
+	top:101px;
 	left:0%;
 	width::100%;
 	height:100%;
 	list-style-type:none;
-}
+}*/
 #craig{
 	position:fixed;
+	top:110px;
 	left:0%;
 	width:20%;
 	height:100%;
@@ -36,23 +42,30 @@
 
 #jacob{
 	position:fixed;
+	top:110px;
 	left:20%;
 	width:20%;
 	height:100%;
 }
 #adena{
 	position:fixed;
+	top:110px;
 	left:40%;
 	width:20%;
+	height:100%;
 }
 #ben{
 	position:fixed;
+	top:110px;
 	left:60%;
 	width:20%;
+	height:100%;
 }
 
 #heather{
 	position:fixed;
+	top:110px;
 	left:80%;
 	width:20%;
+	height:100%;
 }
