@@ -1,6 +1,7 @@
 $(document).ready(function(){
+	$(".contentBox").mCustomScrollbar({theme:"dark"});
 	$(window).load(function(){
-		$(".contentBox").mCustomScrollbar({theme:"dark"});
+		
 		$('#form1Submit').click(function(){
 			document.form1.submit();	
 		});
