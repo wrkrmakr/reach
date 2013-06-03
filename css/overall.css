@@ -30,10 +30,14 @@ a:focus {
 	top: 0px;
 	left: 0px;
 	color: white;
-	font-size: 45px;
 	background-color: rgba(0,0,0,0.8);
 	width: 44%;
 	height: 100px;
+}
+#logo img {
+	position: absolute;
+	top:20px;
+	left:20px;
 }
 
 #logo a,
@@ -43,19 +47,6 @@ a:focus {
 	color: white;
 	text-decoration: none;
 	outline:none;
-}
-
-#logo p {
-	position: absolute;
-	top:35px;
-	left: 5%;
-}
-#logoR {
-	color: #FF7F00;
-	font-weight: bold;
-}
-#logoP {
-	font-family: times;
 }
 
 /*--------ORANGE TEXT---------*/
