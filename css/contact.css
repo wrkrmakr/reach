@@ -67,6 +67,30 @@ input[type="text"]{
 	font-weight: bold;
 	font-size:16px;
 }
+#nameResponse{
+	color:#F00;
+	font-family: "Helvetica-Condensed", sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	height:30px;
+	width:318px;	
+}
+#emailResponse{
+	color:#F00;
+	font-family: "Helvetica-Condensed", sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	height:30px;
+	width:318px;
+}
+#messageResponse{
+	color:#F00;
+	font-family: "Helvetica-Condensed", sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	height:30px;
+	width:318px;	
+}
 textarea{
 	background-color:rgba(0,0,0,0.8);
 	width: 450px;
@@ -89,6 +113,7 @@ textarea:focus, input[type="text"]:focus {
 border-color: rgba(255, 127, 0,0.8);
 box-shadow: 0 1px 1px rgba(255, 127, 0,0.8) inset, 0 0 8px rgba(255, 127, 0,1);
 outline: 0 none;}
+
 /*
 .container-fluid{
 padding-right:0;
