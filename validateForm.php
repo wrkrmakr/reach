@@ -8,5 +8,5 @@
 	$from = $email;
 	$headers = "From:" . $from;
 	mail($to,$subject,$message,$headers);
-	echo "Mail Sent.";
+	die( "Mail Sent.");
 ?> 

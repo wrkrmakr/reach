@@ -3,7 +3,8 @@ $(document).ready(function(){
 	$(window).load(function(){
 		
 		$('#form1Submit').click(function(){
-			var nameTest=$('#nameResponse').html();
+			document.form1.submit();
+			/*var nameTest=$('#nameResponse').html();
 			var emailTest=$('#emailResponse').html();
 			var messageTest=$('#messageResponse').html();
 			var nameTestValue=$("#name").val();
@@ -12,16 +13,24 @@ $(document).ready(function(){
 			
 			if(((nameTest=='') || (nameTest=null)) && ((emailTest=='') || (emailTest=null)) &&((messageTest=='') || (messageTest=				     		null))&&((nameTestValue!='') || (nameTestValue!=null))&&(nameTestValue!='')&&(emailTestValue!='')&&(messageTestValue		            !='')){
 				document.form1.submit();			
-			}
+			}*/		
 			
-			
+		});
+		$('#form1').submit(function(){
+			// submit the form 
+			$(this).ajaxForm({
+			target:'#emailResponse'	
+				
+			}); 
+			// return false to prevent normal browser submit and page navigation 
+						
 		});
 		$('#form1Submit').hover(function(){
 			$(this).css('cursor','pointer');	
 		},function(){
 			$(this).css('cursor','default');			
 		});
-		$('#name').blur(function(){
+		/*$('#name').blur(function(){
 			var name=$("#name").val();
 			if ((name==null || name=="")){
 				$('#nameResponse').html('*Name is required');
