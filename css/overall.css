@@ -9,7 +9,7 @@ a,
 a:visited,
 a:hover,
 a:focus {
-	color: white;
+	color: #FF7F00;
 	text-decoration: none;
 	outline:none;
 }
@@ -35,6 +35,16 @@ a:focus {
 	width: 44%;
 	height: 100px;
 }
+
+#logo a,
+a:visited,
+a:hover,
+a:focus {
+	color: white;
+	text-decoration: none;
+	outline:none;
+}
+
 #logo p {
 	position: absolute;
 	top:35px;
@@ -56,19 +66,21 @@ a:focus {
 /*--------CONTENT BOX---------*/
 .contentContainer{
 	background-color: rgba(255,255,255,0.8);
-	border-bottom:10px solid #FF7F00;
+	border-bottom:8px solid #FF7F00;
 }
 .contentBox{
 	position: absolute;
-	top:12%;
+	top:8%;
 	left:4%;
 	overflow-y: auto;
 	width: 93%;
-	height: 80%;
+	height: 85%;
 }
 .contentBox h1{
 	position: relative;
-	top:5px;
+/*	top:5px;*/
+	margin:0px;
+	padding:10px 0px 15px;
 	font-size: 40px;
 	font-weight: 400;
 	vertical-align: bottom;
@@ -78,7 +90,7 @@ a:focus {
 .contentBox p{
 	font-size: 20px;
 	line-height: 24px;
-	margin-left: 5px;
+	margin-left: 2px;
 	font-family: "Gotham-Book", sans-serif;
 }
 .contentPoints{
@@ -87,8 +99,7 @@ a:focus {
 .contentLink:visited,
 .contentLink:hover,
 .contentLink:focus{
-	color: #FF7F00;
-	text-decoration: underline;
+	color: white;
 }
 
 /*--------NAV BAR---------*/
