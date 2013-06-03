@@ -1,9 +1,5 @@
 // JavaScript Document
 $(document).ready(function(){
-	var options = { 
-        target:        '#response',   // target element(s) to be updated with server response 
-    }
-
 	$('#form1').submit(function(){
 		// submit the form
 		$(this).ajaxSubmit({
