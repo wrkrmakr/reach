@@ -123,6 +123,15 @@ textarea{
 	font-weight: bold;
 	font-size:16px;
 }
+#iconCont{
+	position: relative;
+	left: 390px;
+}
+.iconImage{
+	height:35px;
+	width:35px;	
+	
+}
 .error{
 	color: #F00;
 	display: inline;
