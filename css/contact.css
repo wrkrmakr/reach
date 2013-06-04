@@ -74,7 +74,7 @@ input[type="text"]{
 	padding: 5px 8px;
 	font-weight: bold;
 	font-size:16px;
-	padding:10px;
+	margin:10px;
 }
 #nameResponse{
 	color:#F00;
@@ -109,7 +109,7 @@ textarea{
 	font-weight: bold;
 	font-size:16px;
 	resize:none;
-	padding:10px;
+	margin:10px;
 }
 #form1Submit{
 	position:absolute;
@@ -123,12 +123,12 @@ textarea{
 	font-weight: bold;
 	font-size:16px;
 }
-label{
+.error{
 	color: #F00;
 	display: inline;
 	font-family: "Helvetica-Condensed", sans-serif;
 	letter-spacing: 1px;
-	font-weight: bold;	
+	font-size: 18px;	
 }
 input:-moz-placeholder,textarea:-moz-placeholder{color:#fff}
 input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#ff}

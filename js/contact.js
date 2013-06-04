@@ -19,12 +19,28 @@ $(document).ready(function(){
 	$('#form1').validate({
 		rules: {
                "name":{
+                   required: true,
+				   minlength:2
+               },
+			   "inputEmail":{
+                   required: true,
+				   email: true
+               },
+			   "message":{
                    required: true
-               } 
+				}   
        },
        messages: {
             "name": {
-                required: "Please, enter a name"
+                required: "Please, enter a name",
+				minlength: jQuery.format("At least {0} characters required!")
+            },
+			"inputEmail": {
+                required: "Please, enter a email!",
+				email: "Please, enter a valid email!"
+            },
+			"message": {
+                required: "Please, enter a message"
             }
        },
 	    submitHandler: function(form) {
