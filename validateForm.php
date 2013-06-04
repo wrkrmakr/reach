@@ -12,7 +12,7 @@
 	//Prepare form fields
 	$to = "nijjar.login@gmail.com";
 	$subject = "Mail From: ".$name." ( ".$email." )";
-	$message = $_POST["message"];
+	$message = $_POST["mailMessage"];
 	$from = $email;
 	$headers = "From: " . strip_tags($email) . "\r\n";
 	$headers .= "Reply-To: ". strip_tags($email) . "\r\n";
@@ -21,5 +21,5 @@
 	
 	//Send mail	
 	mail($to,$subject,$message,$headers);
-	die( "We had recieved your mail. You will receive a reply shortly.");
+	die( "We had recieved your e-mail. You will receive a reply shortly.");
 ?>
