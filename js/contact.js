@@ -52,7 +52,7 @@ $(document).ready(function(){
 					$("#response").append('<div id="tickCont"></div><br />');
 					$("#response").append('<div style="position:relative; font-size:18px;">'+responseText+'</div>');
 					$("#response").hide().slideDown("fast");
-					
+					$('#form1').reset();		
 				}
 	    	});
 			return false;
