@@ -105,6 +105,12 @@ textarea{
 	position:absolute;
 	left:390px;	
 }
+#response{
+	color:#F00;
+	font-family: "Helvetica-Condensed", sans-serif;
+	font-weight: bold;
+	font-size:16px;
+}
 input:-moz-placeholder,textarea:-moz-placeholder{color:#fff}
 input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#ff}
 input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#fff}

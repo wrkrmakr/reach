@@ -5,8 +5,7 @@ $(document).ready(function(){
 		$(this).ajaxSubmit({
 			target: "#response",
 			success: function(responseText, statusText, xhr, $form) {
-				alert("Wes is amazing again (success fired)");
-		        $('#form1').slideUp("fast");
+				$('#form1').slideUp("fast");
 		        $("#response").html(responseText).hide().slideDown("fast");
 		    }
 	    });
