@@ -36,8 +36,9 @@ a:focus {
 }
 #logo img {
 	position: absolute;
-	top:20px;
+	top:25px;
 	left:20px;
+	width: 120px;
 }
 
 #logo a,
@@ -384,13 +385,12 @@ a:focus {
 		font-size: 17px;
 		background-color: white;
 	}
-
 }
 @media (max-width: 979px) {
 	.nav-collapse {
 		-webkit-transform: translate3d(0, 0, 0);
 		height: auto;
-		min-width: 300px;
+		width:100%;
 		margin: 0px;
 	}
 	.navbar-fixed-top {
