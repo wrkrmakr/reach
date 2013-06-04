@@ -36,36 +36,36 @@ body{
 	position:fixed;
 	top:110px;
 	left:0%;
-	width:20%;
+	width:28%;
 	height:100%;
 }
 
 #jacob{
 	position:fixed;
 	top:110px;
-	left:20%;
-	width:20%;
+	left:28%;
+	width:13%;
 	height:100%;
 }
 #adena{
 	position:fixed;
 	top:110px;
-	left:40%;
-	width:20%;
+	left:41%;
+	width:13%;
 	height:100%;
 }
 #ben{
 	position:fixed;
 	top:110px;
-	left:60%;
-	width:20%;
+	left:54%;
+	width:21%;
 	height:100%;
 }
 
 #heather{
 	position:fixed;
 	top:110px;
-	left:80%;
-	width:20%;
+	left:75%;
+	width:25%;
 	height:100%;
 }
