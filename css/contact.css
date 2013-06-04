@@ -104,6 +104,8 @@ textarea{
 #form1Submit{
 	position:absolute;
 	left:390px;	
+	background:none;
+	border:none;
 }
 #response{
 	color:#F00;
