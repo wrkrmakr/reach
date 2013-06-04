@@ -3,10 +3,12 @@ $(document).ready(function(){
 	$('#form1').submit(function(){
 		// submit the form
 		$(this).ajaxSubmit({
-			target: "#response",
+			//target: "#response",
 			success: function(responseText, statusText, xhr, $form) {
 				$('#form1').slideUp("fast");
-		        $("#response").html(responseText).hide().slideDown("fast");
+				$("#response").append('<div id="tickCont"></div><br />');
+				$("#response").append('<div style="position:relative; font-size:18px;">'+responseText+'</div>');
+				$("#response").hide().slideDown("fast");
 		    }
 	    });
 		return false;
