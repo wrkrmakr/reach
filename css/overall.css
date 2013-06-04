@@ -130,7 +130,8 @@ a:focus {
 
 /*--------- DROPDOWN----------*/
 .navbar .nav .dropdown ul{
-	font-family: "Helvetica-Condensed", sans-serif;
+	font-family: "Gotham-Book", sans-serif;
+	font-size:18px;
 }
 .navbar .nav>li>.dropdown-menu:before,
 .navbar >li>.dropdown-menu:after,

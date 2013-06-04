@@ -34,38 +34,38 @@ body{
 }*/
 #craig{
 	position:fixed;
-	top:110px;
-	left:0%;
-	width:28%;
+	top:15%;
+	left:-9%;
+	width:42%;
 	height:100%;
 }
 
 #jacob{
 	position:fixed;
-	top:110px;
-	left:28%;
-	width:13%;
+	top:15%;
+	left:25%;
+	width:19%;
 	height:100%;
 }
 #adena{
 	position:fixed;
-	top:110px;
-	left:41%;
-	width:13%;
+	top:15%;
+	left:45%;
+	width:20%;
 	height:100%;
 }
 #ben{
 	position:fixed;
-	top:110px;
-	left:54%;
-	width:21%;
+	top:15%;
+	left:58%;
+	width:32%;
 	height:100%;
 }
 
 #heather{
 	position:fixed;
-	top:110px;
-	left:75%;
-	width:25%;
+	top:15%;
+	left:73%;
+	width:38%;
 	height:100%;
 }
