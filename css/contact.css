@@ -50,15 +50,24 @@
 .textLabel{
 	color: rgb(255,127,0);
 	text-transform:uppercase;
-	font-weight: bold;
+	
 	font-family: "Helvetica-Condensed", sans-serif;
 	font-size:20px;
 	letter-spacing:1px;
 }
 .textInfo{
 	color: rgb(255,255,255);
-	font-family: "Helvetica-Condensed", sans-serif;
-	font-size:18px;
+	font-family: "Gotham-Book", sans-serif;
+	font-size:15px;
+}
+#parkingInfo{
+	display:inline-table;
+	width: 350px;	
+}
+#ttcInfo{
+	display:inline-table;
+	width: 380px;	
+	
 }
 
 input[type="text"]{
