@@ -14,6 +14,20 @@ $(document).ready(function(){
 		// return false to prevent normal browser submit and page navigation 
 					
 	});
+	$('#form1').validate({
+		rules: {
+               "name":{
+                   required: true
+               } 
+       },
+       messages: {
+            "name": {
+                required: "Please, enter a name"
+            }
+       }	
+		
+	});
+	
 	/*$('#form1Submit').hover(function(){
 		$(this).css('cursor','pointer');	
 	},function(){

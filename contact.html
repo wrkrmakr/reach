@@ -53,6 +53,7 @@
     <script src="js/main.js"></script>
     <script src="js/form.js"></script>
     <script src="js/contact.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
       
   </head>
   <body>
@@ -89,9 +90,9 @@
     	</div>
    		<div id="rightCont" class="span7">
    			<form class="form-horizontal" action="validateForm.php" method="post" name="form1" id="form1" >
-                <input type="text"  name="name" id="name" placeholder="NAME" onfocus="this.placeholder = ''" onblur=					 					"this.placeholder = 'NAME'"><div id="nameResponse"></div>
-                <input type="text" name="inputEmail" id="inputEmail" placeholder="EMAIL" onfocus="this.placeholder = ''" 			 					onblur="this.placeholder = 'EMAIL'"><div id="emailResponse"></div>
-                <textarea rows="10" name="message" id="message" placeholder="MESSAGE" onfocus="this.placeholder = ''" onblur=		 					"this.placeholder = 'MESSAGE'" ></textarea><br /><div id="messageResponse"></div>
+                <input type="text"  name="name" id="name" placeholder="NAME" onfocus="this.placeholder = ''" onblur=					 					"this.placeholder = 'NAME'"><br />
+                <input type="text" name="inputEmail" id="inputEmail" placeholder="EMAIL" onfocus="this.placeholder = ''" 			 					onblur="this.placeholder = 'EMAIL'"><br /><br />
+                <textarea rows="10" name="message" id="message" placeholder="MESSAGE" onfocus="this.placeholder = ''" onblur=		 					"this.placeholder = 'MESSAGE'" ></textarea><br />
                 <input type="submit" value="Submit" class="textLabel" id="form1Submit">
             </form>
     		<!--div class="textLabel" id="form1Submit">Submit</div-->
