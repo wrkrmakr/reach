@@ -26,21 +26,21 @@ $(document).ready(function(){
                    required: true,
 				   email: true
                },
-			   "message":{
+			   "mailMessage":{
                    required: true
 				}   
        },
        messages: {
             "name": {
-                required: "Please, enter a name",
+                required: "Please, enter a name!",
 				minlength: jQuery.format("At least {0} characters required!")
             },
 			"inputEmail": {
-                required: "Please, enter a email!",
-				email: "Please, enter a valid email!"
+                required: "Please, enter an e-mail!",
+				email: "Please, enter an valid e-mail!"
             },
-			"message": {
-                required: "Please, enter a message"
+			"mailMessage": {
+                required: "Please, enter a message!"
             }
        },
 	    submitHandler: function(form) {
@@ -50,7 +50,7 @@ $(document).ready(function(){
 				success: function(responseText, statusText, xhr, $form) {
 					$('#form1').slideUp("fast");
 					$("#response").append('<div id="tickCont"></div><br />');
-					$("#response").append('<div style="position:relative; font-size:18px;">'+responseText+'</div>');
+					$("#response").append('<div >'+responseText+'</div>');
 					$("#response").hide().slideDown("fast");
 					$('#form1').reset();		
 				}

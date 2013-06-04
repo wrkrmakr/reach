@@ -86,25 +86,35 @@
             </span>
             <span class="textInfo">
                 info@reachpersonaltraining.com               
-            </span>
-            <span class="textLabel">
-                <br />Parking:
-            </span>
-            <span class="textInfo" id="parkingInfo">
-                There is metered parking on the north and south sides of Davenport.           
-            </span>
-            <span class="textLabel">
+            </span>            
+            <div id="info">
+            	<span class="textLabel">
+                	<br />Parking:
+            	</span>
+                <span class="textInfo">
+                    There is metered parking on the north and south sides of Davenport.            
+                </span>
+            </div>
+            <div id="info">
+            	<span class="textLabel">
+                	<br />TTC:
+            	</span>
+                <span class="textInfo">
+                    Reach PT is located on the South-East corner of Davenport and Bedford.               
+                </span>
+            </div>
+            <!--<span class="textLabel">
                 <br />TTC:
             </span>
             <span class="textInfo" id="ttcInfo">
                 Reach PT is located on the South-East corner of Davenport and Bedford.           
-            </span>
+            </span>-->
     	</div>
    		<div id="rightCont" class="span7">
    			<form class="form-horizontal" action="validateForm.php" method="post" name="form1" id="form1" >
                 <input type="text"  name="name" id="name" placeholder="NAME" onfocus="this.placeholder = ''" onblur=					 					"this.placeholder = 'NAME'"><br /><br />
                 <input type="text" name="inputEmail" id="inputEmail" placeholder="EMAIL" onfocus="this.placeholder = ''" 			 					onblur="this.placeholder = 'EMAIL'"><br /><br />
-                <textarea rows="10" name="message" id="message" placeholder="MESSAGE" onfocus="this.placeholder = ''" onblur=		 					"this.placeholder = 'MESSAGE'" ></textarea><br /><br />
+                <textarea rows="10" name="mailMessage" id="mailMessage" placeholder="MESSAGE" onfocus="this.placeholder = ''" onblur=		 					"this.placeholder = 'MESSAGE'" ></textarea><br /><br />
                 <input type="submit" value="Submit" class="textLabel" id="form1Submit">
             </form>
     	 <div id="response"></div>
