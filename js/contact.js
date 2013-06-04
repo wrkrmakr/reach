@@ -44,13 +44,15 @@ $(document).ready(function(){
             }
        },
 	    submitHandler: function(form) {
-      		$(form).ajaxSubmit({
+      		$('#form1Submit').attr('value','Submitting...');
+			$(form).ajaxSubmit({
 				//target: "#response",
 				success: function(responseText, statusText, xhr, $form) {
 					$('#form1').slideUp("fast");
 					$("#response").append('<div id="tickCont"></div><br />');
 					$("#response").append('<div style="position:relative; font-size:18px;">'+responseText+'</div>');
 					$("#response").hide().slideDown("fast");
+					
 				}
 	    	});
 			return false;
