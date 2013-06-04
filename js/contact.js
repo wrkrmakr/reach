@@ -7,7 +7,7 @@ $(document).ready(function(){
 			success: function(responseText, statusText, xhr, $form) {
 				$('#form1').slideUp("fast");
 				$("#response").append('<div id="tickCont"></div><br />');
-				$("#response").append('<div style="position:relative;">'+responseText+'</div>');
+				$("#response").append('<div style="position:relative; font-size:18px;">'+responseText+'</div>');
 				$("#response").hide().slideDown("fast");
 		    }
 	    });
