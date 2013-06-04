@@ -10,12 +10,12 @@ $(document).ready(function() {
 		var currentImageId=$(this).attr('id');
 		if(currentContainerView != currentParentDiv)
 		if(currentImageId<=3){
-			$(this).parent().stop(true,true).animate({left: '+=1%'},300,function(){
+			$(this).parent().stop(true,true).animate({left: '+=1%'},500,function(){
 				isCoachMoving=true;					
 			});
 		}
 		if(currentImageId>3) {
-			$(this).parent().stop(true,true).animate({left: '-=1%'},300,function(){
+			$(this).parent().stop(true,true).animate({left: '-=1%'},500,function(){
 				isCoachMoving=true;		
 			});
 		}
@@ -23,12 +23,12 @@ $(document).ready(function() {
 	},function(){
 		var currentImageId=$(this).attr('id');
 		if(currentImageId<=3){
-				$(this).parent().stop(true,true).animate({left: '-=1%'},100,function(){
+				$(this).parent().stop(true,true).animate({left: '-=1%'},300,function(){
 					isCoachMoving = false;					
 				});
 			}
 			if(currentImageId>3){
-				$(this).parent().stop(true,true).animate({left: '+=1%'},100,function(){
+				$(this).parent().stop(true,true).animate({left: '+=1%'},300,function(){
 				isCoachMoving = false;				
 				});
 			}		
