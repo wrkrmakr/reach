@@ -1,6 +1,6 @@
 // JavaScript Document
 $(document).ready(function(){
-	$('#form1').submit(function(){
+	/*$('#form1').submit(function(){
 		// submit the form
 		$(this).ajaxSubmit({
 			//target: "#response",
@@ -15,18 +15,49 @@ $(document).ready(function(){
 	
 		// return false to prevent normal browser submit and page navigation 
 					
-	});
+	});*/
 	$('#form1').validate({
 		rules: {
                "name":{
+                   required: true,
+				   minlength:2
+               },
+			   "inputEmail":{
+                   required: true,
+				   email: true
+               },
+			   "message":{
                    required: true
-               } 
+				}   
        },
        messages: {
             "name": {
-                required: "Please, enter a name"
+                required: "Please, enter a name",
+				minlength: jQuery.format("At least {0} characters required!")
+            },
+			"inputEmail": {
+                required: "Please, enter a email!",
+				email: "Please, enter a valid email!"
+            },
+			"message": {
+                required: "Please, enter a message"
             }
-       }	
+       },
+	    submitHandler: function(form) {
+      		$('#form1Submit').attr('value','Submitting...');
+			$(form).ajaxSubmit({
+				//target: "#response",
+				success: function(responseText, statusText, xhr, $form) {
+					$('#form1').slideUp("fast");
+					$("#response").append('<div id="tickCont"></div><br />');
+					$("#response").append('<div style="position:relative; font-size:18px;">'+responseText+'</div>');
+					$("#response").hide().slideDown("fast");
+					$('#form1').reset();		
+				}
+	    	});
+			return false;
+		}	
+	   
 		
 	});
 	
