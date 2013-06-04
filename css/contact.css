@@ -124,7 +124,7 @@ textarea{
 	font-size:16px;
 }
 #iconCont{
-	position: relative;
+	position: absolute;
 	left: 390px;
 }
 .iconImage{
