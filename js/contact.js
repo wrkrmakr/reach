@@ -1,6 +1,6 @@
 // JavaScript Document
 $(document).ready(function(){
-	$('#form1').submit(function(){
+	/*$('#form1').submit(function(){
 		// submit the form
 		$(this).ajaxSubmit({
 			//target: "#response",
@@ -15,7 +15,7 @@ $(document).ready(function(){
 	
 		// return false to prevent normal browser submit and page navigation 
 					
-	});
+	});*/
 	$('#form1').validate({
 		rules: {
                "name":{
@@ -26,7 +26,20 @@ $(document).ready(function(){
             "name": {
                 required: "Please, enter a name"
             }
-       }	
+       },
+	    submitHandler: function(form) {
+      		$(form).ajaxSubmit({
+				//target: "#response",
+				success: function(responseText, statusText, xhr, $form) {
+					$('#form1').slideUp("fast");
+					$("#response").append('<div id="tickCont"></div><br />');
+					$("#response").append('<div style="position:relative; font-size:18px;">'+responseText+'</div>');
+					$("#response").hide().slideDown("fast");
+				}
+	    	});
+			return false;
+		}	
+	   
 		
 	});
 	
