@@ -18,6 +18,20 @@ body{
 	border-bottom:10px solid #FF7F00;
 }
 
+.contentBox{
+	
+}
+
+.contentBox h1 {
+	font-size:32px;
+	padding:0px 0px 15px;
+}
+
+.contentBox p {
+	font-size:16px;
+	line-height:20px;
+}
+
 #coach ul{
 /*	position:absolute;*/
 /*	top:30%;*/
