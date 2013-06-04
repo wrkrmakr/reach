@@ -8,12 +8,12 @@
 	//Putting form values in variables for easy reference 
 	$name=$_POST["name"];
 	$email=$_POST["inputEmail"];
+	$message = $_POST["mailMessage"];                          //Actual Message
 	
-	//Prepare form fields
+	//Format the email
 	$to = "nijjar.login@gmail.com";
-	$subject = "Mail From: ".$name." ( ".$email." )";
-	$message = $_POST["mailMessage"];
-	$from = $email;
+	$subject = "Mail From: ".$name." ( ".$email." )";          //Subject Line
+	$from = $email ;
 	$headers = "From: " . strip_tags($email) . "\r\n";
 	$headers .= "Reply-To: ". strip_tags($email) . "\r\n";
 	$headers .= "MIME-Version: 1.0\r\n";
