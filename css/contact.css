@@ -14,7 +14,7 @@
 #leftCont{
 	position: relative;
 	left: 10%;
-	top: 20%;
+	top: 19%;
 	/*width: 40%;*/
 }
 #rightCont{
@@ -50,15 +50,24 @@
 .textLabel{
 	color: rgb(255,127,0);
 	text-transform:uppercase;
-	font-weight: bold;
 	font-family: "Helvetica-Condensed", sans-serif;
 	font-size:20px;
 	letter-spacing:1px;
 }
 .textInfo{
 	color: rgb(255,255,255);
-	font-family: "Helvetica-Condensed", sans-serif;
-	font-size:18px;
+	font-family: "Gotham-Book", sans-serif;
+	font-size:15px;
+	font-weight:400;
+}
+#parkingInfo{
+	display:inline-table;
+	width: 350px;	
+}
+#ttcInfo{
+	display:inline-table;
+	width: 380px;	
+	
 }
 
 input[type="text"]{
@@ -76,30 +85,7 @@ input[type="text"]{
 	font-size:16px;
 	margin:10px;
 }
-#nameResponse{
-	color:#F00;
-	font-family: "Helvetica-Condensed", sans-serif;
-	font-size:18px;
-	font-weight:bold;
-	height:30px;
-	width:318px;	
-}
-#emailResponse{
-	color:#F00;
-	font-family: "Helvetica-Condensed", sans-serif;
-	font-size:18px;
-	font-weight:bold;
-	height:30px;
-	width:318px;
-}
-#messageResponse{
-	color:#F00;
-	font-family: "Helvetica-Condensed", sans-serif;
-	font-size:18px;
-	font-weight:bold;
-	height:30px;
-	width:318px;	
-}
+
 textarea{
 	background-color:rgba(0,0,0,0.8);
 	width: 450px;
@@ -118,10 +104,10 @@ textarea{
 	border:none;
 }
 #response{
-	color:white;
-	font-family: "Helvetica-Condensed", sans-serif;
-	font-weight: bold;
-	font-size:16px;
+	color: rgb(255,255,255);
+	font-family: "Gotham-Book", sans-serif;
+	font-size:15px;
+	font-weight:400;
 }
 #iconCont{
 	position: absolute;
@@ -130,14 +116,17 @@ textarea{
 .iconImage{
 	height:35px;
 	width:35px;	
-	
 }
-.error{
-	color: #F00;
+label{
+	color: #FFF;
 	display: inline;
-	font-family: "Helvetica-Condensed", sans-serif;
-	letter-spacing: 1px;
-	font-size: 18px;	
+	color: rgb(255,255,255);
+	font-family: "Gotham-Book", sans-serif;
+	font-size:15px;
+	font-weight:400;	
+}
+#info{
+	width:400px;	
 }
 input:-moz-placeholder,textarea:-moz-placeholder{color:#fff}
 input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#ff}
