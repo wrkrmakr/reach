@@ -9,7 +9,7 @@ a,
 a:visited,
 a:hover,
 a:focus {
-	color: #FF7F00;
+	color: #FF2500;
 	text-decoration: none;
 	outline:none;
 }
@@ -52,13 +52,13 @@ a:focus {
 
 /*--------ORANGE TEXT---------*/
 .orangeText{
-	color: #FF7F00;
+	color: #FF2500;
 }
 
 /*--------CONTENT BOX---------*/
 .contentContainer{
 	background-color: rgba(255,255,255,0.8);
-	border-bottom:8px solid #FF7F00;
+	border-bottom:8px solid #FF2500;
 }
 .contentBox{
 	position: absolute;
@@ -159,7 +159,7 @@ a:focus {
 	text-decoration: none;
 	background-color: white;
 	background-image: none;
-	border-left: 5px solid #FF7F00;
+	border-left: 5px solid #FF2500;
 	padding-left: 15px;
 }
 

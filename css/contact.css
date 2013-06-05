@@ -1,5 +1,5 @@
 .bgimage{
-	background-image:url(../img/contactus.jpg);
+	background-image:url(../img/REACH_CONTACT_IMG_FLIPPED.jpg);
 	/*background-size: cover;*/
 }
 #contentWrap{
@@ -48,7 +48,7 @@
 	height: 30%;
 }
 .textLabel{
-	color: rgb(255,127,0);
+	color:#FF2500;
 	text-transform:uppercase;
 	font-family: "Helvetica-Condensed", sans-serif;
 	font-size:20px;
@@ -133,7 +133,7 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#ff}
 input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#fff}
 
 textarea:focus, input[type="text"]:focus {   
-border-color: rgba(255, 127, 0,0.8);
+border-color:#FF2500;
 box-shadow: 0 1px 1px rgba(255, 127, 0,0.8) inset, 0 0 8px rgba(255, 127, 0,1);
 outline: 0 none;}
 
