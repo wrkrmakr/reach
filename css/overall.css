@@ -167,6 +167,12 @@ a:focus {
 	.navbar .nav{
 		font-size: 20px;
 	}
+	.contentBox h1{
+		font-size: 35px;
+	}
+	.contentBox p{
+		font-size: 17px;
+	}
 	/*.navbar,
 	.navbar-inverse,
 	.navbar-fixed-top{
@@ -180,6 +186,12 @@ a:focus {
 @media(max-width : 1300px) and (orientation:landscape){
 	.navbar .nav{
 		font-size: 17px;
+	}
+	.contentBox h1{
+		font-size: 30px;
+	}
+	.contentBox p{
+		font-size: 15px;
 	}
 	/*.navbar,
 	.navbar-inverse,

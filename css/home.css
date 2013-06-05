@@ -12,7 +12,10 @@
 	height:40%;
 	width:44%;
 }
-.item img{
+.carousel-inner,
+.item img,
+.item
+{
 	width:100% !important;
 	height:100% !important;
 }
