@@ -71,7 +71,7 @@ a:focus {
 	position: relative;
 /*	top:5px;*/
 	margin:0px;
-	padding:10px 0px 15px;
+	padding:0px 0px 10px;
 	font-size: 40px;
 	font-weight: 400;
 	vertical-align: bottom;
@@ -147,7 +147,7 @@ a:focus {
 	overflow: visible;
 }
 .dropdown-menu li{
-	margin-top: 15px;
+	margin:10px 0px;
 }
 
 .dropdown-menu > li > a:hover,

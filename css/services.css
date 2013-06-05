@@ -20,8 +20,9 @@
 }
 .arrow {
 	position: fixed;
-	top: 40%;
+	top: 47%;
 	cursor: pointer;
+	height:80px;
 }
 #leftscroll {
 	left: 0px;
