@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	var currentTreatment = getUrlVars()["id"];
-	if (currentTreatment != 1 && currentTreatment != 2 && currentTreatment != 3){
+	if (currentTreatment != 1 && currentTreatment != 2){
 		currentTreatment = 1;
 	}
 	$('.contentBox').hide();
@@ -22,7 +22,7 @@ $(document).ready(function(){
 		}
 	});
 	$("#rightscroll").click(function(){
-		if (currentTreatment < 3) {
+		if (currentTreatment < 2) {
 			currentTreatment++;
 			changeContent();
 		}

@@ -9,7 +9,7 @@ a,
 a:visited,
 a:hover,
 a:focus {
-	color: #ee4823;
+	color: #999;
 	text-decoration: none;
 	outline:none;
 }
@@ -90,7 +90,7 @@ a:focus {
 .contentLink:visited,
 .contentLink:hover,
 .contentLink:focus{
-	color: white;
+	color: #ee4823;
 }
 
 /*--------NAV BAR---------*/
