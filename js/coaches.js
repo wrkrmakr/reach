@@ -34,6 +34,7 @@ $(document).ready(function() {
 			}		
 	});
 	
+	
 	$('.coach img').click(function(){
 		
 		var currentLeft=$(this).parent().offset().left;
