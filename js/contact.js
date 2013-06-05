@@ -32,15 +32,15 @@ $(document).ready(function(){
        },
        messages: {
             "name": {
-                required: "Please, enter a name!",
-				minlength: jQuery.format("At least {0} characters required!")
+                required: "Please enter your full name",
+				minlength: jQuery.format("At least {0} characters required")
             },
 			"inputEmail": {
-                required: "Please, enter an e-mail!",
-				email: "Please, enter an valid e-mail!"
+                required: "Please enter your e-mail address",
+				email: "Please enter a valid e-mail address"
             },
 			"mailMessage": {
-                required: "Please, enter a message!"
+                required: "Please send us a note"
             }
        },
 	    submitHandler: function(form) {
