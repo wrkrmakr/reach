@@ -278,7 +278,7 @@ a:focus {
 	.nav-collapse.collapse {
 		height: 0;
 		overflow: hidden;
-		top:41px;
+		top:16px;
 	}
 	.dropdown-menu{
 		top: 0px;
@@ -289,7 +289,7 @@ a:focus {
 
 	.navbar .btn-navbar {
 		display: block;
-		margin-top: 30px;
+		margin-top: 15px;
 	}
 	.navbar-inner {
 		padding-right: 10px;
@@ -375,13 +375,13 @@ a:focus {
 	.nav-collapse.collapse {
 		height: 0;
 		overflow: hidden;
-		top:41px;
+		top:16px;
 	}
 
 
 	.navbar .btn-navbar {
 		display: block;
-		margin-top: 30px;
+		margin-top: 15px;
 	}
 	.navbar-inner {
 		padding-right: 10px;
