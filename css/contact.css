@@ -1,5 +1,5 @@
 .bgimage{
-	background-image:url(../img/REACH_CONTACT_IMG_FLIPPED.jpg);
+	background-image:url(../img/REACH_CONTACT_IMG.jpg);
 	/*background-size: cover;*/
 }
 #contentWrap{
@@ -48,7 +48,7 @@
 	height: 30%;
 }
 .textLabel{
-	color:#FF2500;
+	color:#ee4823;
 	text-transform:uppercase;
 	font-family: "Helvetica-Condensed", sans-serif;
 	font-size:20px;
