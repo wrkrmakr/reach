@@ -34,6 +34,7 @@ $(document).ready(function() {
 			}		
 	});
 	
+	
 	$('.coach img').click(function(){
 		
 		var currentLeft=$(this).parent().offset().left;
@@ -41,7 +42,13 @@ $(document).ready(function() {
 		var currentParentDiv = $(this).parent().attr('id');
 		
 		if(currentContainerView != currentParentDiv){
-			if(currentImageId!=5){
+			if(currentImageId==1){
+				$('.contentContainer').hide('fold',400,function(){
+					$('.contentContainer').css('left',currentLeft+150);
+					$('.contentContainer').show('fold',1000);			
+				});
+			}
+			if((currentImageId>1)&& (currentImageId<5)){
 				$('.contentContainer').hide('fold',400,function(){
 					$('.contentContainer').css('left',currentLeft);
 					$('.contentContainer').show('fold',1000);			
