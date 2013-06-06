@@ -35,6 +35,8 @@ $(document).ready(function() {
 	});
 	
 	
+	
+	
 	$('.coach img').click(function(){
 		
 		var currentLeft=$(this).parent().offset().left;
@@ -45,6 +47,10 @@ $(document).ready(function() {
 			if(currentImageId==1){
 				$('.contentContainer').hide('fold',400,function(){
 					$('.contentContainer').css('left',currentLeft+150);
+					
+					
+					
+					
 					$('.contentContainer').show('fold',1000);			
 				});
 			}
