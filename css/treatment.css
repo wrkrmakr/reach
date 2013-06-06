@@ -12,20 +12,16 @@
 
 .contentContainer{
 	position:absolute;
-	top:45%;
-	left:44%;
-	height:40%;
-	width:44%;
+	top:47%;
+	left:57%;
+	height:30%;
+	width:34%;
 }
 .arrow {
 	position: fixed;
 	top: 47%;
 	cursor: pointer;
-<<<<<<< HEAD
 	height: 90px;
-=======
-	height:80px;
->>>>>>> 95c265226bc67c1396b557ed75ece386aea52459
 }
 #leftscroll {
 	left: 0px;
