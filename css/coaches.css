@@ -30,6 +30,11 @@ body{
 .contentBox p {
 	font-size:16px;
 	line-height:20px;
+	padding-right:10px;
+}
+
+.contentBox ul li {
+	padding-right:10px;
 }
 
 #coach ul{

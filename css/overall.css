@@ -30,7 +30,7 @@ a:focus {
 	top: 0px;
 	left: 0px;
 	color: white;
-	width: 44%;
+	width: 53%;
 	height: 60px;
 	background-color: rgba(0,0,0,0.8);
 }
@@ -98,7 +98,7 @@ a:focus {
 .navbar-inverse,
 .navbar-fixed-top{
 	z-index: 999;
-	width: 56%;
+	width: 47%;
 	right: 0px;
 	left: auto;
 }
