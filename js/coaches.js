@@ -33,11 +33,11 @@ $(document).ready(function() {
 			}		
 	});
 	var coachBio = Array();
-	coachBio[0]="Craig is a Registered Massage Therapist and has been practicing since 1996. She has experience in 					 	treating a range of";
-	coachBio[1]="Jacob firmly believes that a healthy psychology and internal awareness are the essential components of any type  	of training. ";
-	coachBio[2]="Adena firmly believes that a healthy psychology and internal awareness are the essential components of any type  	of training. ";
-	coachBio[3]="Ben believes that achieving goals is dependent on both physical and mental strength.  ";
-	coachBio[4]="Clients who work with Heather receive a program customized to fit their lifestyle and needs.  ";
+	coachBio[0]="<h1><span class='orangeText'>GREG</span></h1><style='font-size:18px'>Greg believes that strength training provides unparalleled opportunities for physical and mental growth.  Overcoming the challenges posed by strength training inspires Greg, and he brings his passion to his clients.";
+	coachBio[1]="<h1><span class='orangeText'>JACOB</span> LAY</h1>Jacob firmly believes that a healthy psychology and internal awareness are the essential components of any type  	of training. ";
+	coachBio[2]="<h1><span class='orangeText'>ADENA</span> CLARFIELD</h1>Adena firmly believes that a healthy psychology and internal awareness are the essential components of any type  	of training. ";
+	coachBio[3]="<h1><span class='orangeText'>BEN</span> CLARFIELD</h1>Ben believes that achieving goals is dependent on both physical and mental strength.  ";
+	coachBio[4]="<h1><span class='orangeText'>HEATHER</span></h1>Clients who work with Heather receive a program customized to fit their lifestyle and needs.  ";
 	
 	$('.coach img').click(function(){		
 		var currentLeft=$(this).parent().offset().left;
