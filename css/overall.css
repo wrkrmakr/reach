@@ -105,6 +105,10 @@ a:focus {
 	margin-left: 2px;
 	font-family: "Gotham-Book", sans-serif;
 }
+
+.contentBox ul li {
+	font-family: "Gotham-Book", sans-serif;
+}
 .contentPoints{
 	font-family: "Gotham-Medium", sans-serif !important;
 }
