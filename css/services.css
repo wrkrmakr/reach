@@ -22,6 +22,7 @@
 	position: fixed;
 	top: 40%;
 	cursor: pointer;
+	height: 90px;
 }
 #leftscroll {
 	left: 0px;

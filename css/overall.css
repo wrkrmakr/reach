@@ -290,7 +290,7 @@ a:focus {
 	.nav-collapse.collapse {
 		height: 0;
 		overflow: hidden;
-		top:16px;
+		top:15px;
 	}
 	.dropdown-menu{
 		top: 0px;
@@ -387,7 +387,7 @@ a:focus {
 	.nav-collapse.collapse {
 		height: 0;
 		overflow: hidden;
-		top:16px;
+		top:15px;
 	}
 
 
