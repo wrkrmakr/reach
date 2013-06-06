@@ -46,25 +46,31 @@ $(document).ready(function() {
 		
 		if(currentContainerView != currentParentDiv){
 			if(currentImageId==1){
-				$('.contentContainer').hide('fold',400,function(){
+				$('.contentContainer').hide('fold',200,function(){
 					$('.contentContainer').animate({left:currentLeft+150},200,function(){
-						$('.contentContainer').show('fold',1000);						
+						$('.contentContainer').show('fold',700,function(){
+							$(".contentBox").mCustomScrollbar({theme:"dark"});	
+						});						
 					});
 					$('.contentBox').html(coachBio[currentImageId-1]);
 				});
 			}
 			if((currentImageId>1)&& (currentImageId<5)){
-				$('.contentContainer').hide('fold',400,function(){
+				$('.contentContainer').hide('fold',200,function(){
 					$('.contentContainer').animate({left:currentLeft},200,function(){
-						$('.contentContainer').show('fold',1000);						
+						$('.contentContainer').show('fold',700,function(){
+							$(".contentBox").mCustomScrollbar({theme:"dark"});	
+						});						
 					});
 					$('.contentBox').html(coachBio[currentImageId-1]);
 				});
 			}
 			if(currentImageId==5){
-				$('.contentContainer').hide('fold',400,function(){
+				$('.contentContainer').hide('fold',200,function(){
 					$('.contentContainer').animate({left:currentLeft-70},200,function(){
-						$('.contentContainer').show('fold',1000);						
+						$('.contentContainer').show('fold',700,function(){
+							$(".contentBox").mCustomScrollbar({theme:"dark"});	
+						});						
 					});
 					$('.contentBox').html(coachBio[currentImageId-1]);
 				});
