@@ -9,7 +9,7 @@ a,
 a:visited,
 a:hover,
 a:focus {
-	color: #999;
+	color: #666;
 	text-decoration: none;
 	outline:none;
 }
@@ -141,7 +141,7 @@ a:focus {
 
 .dropdown-menu{
 	top: 47px;
-	width: 300px;
+	width: 280px;
 	border-radius: 0;
 	font-size: 20px;
 	overflow: visible;
