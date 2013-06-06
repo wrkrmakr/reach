@@ -2,6 +2,7 @@
 
 $(document).ready(function() {
 	$('.contentContainer').hide();	
+	$('.contentBox').hide();
 	var currentContainerView="";
 	var currentParentDiv = $(this).parent().attr('id');
 	
@@ -43,30 +44,45 @@ $(document).ready(function() {
 		var currentLeft=$(this).parent().offset().left;
 		var currentImageId=$(this).attr('id');
 		var currentParentDiv = $(this).parent().attr('id');
+		if(currentContainerView == currentParentDiv){
+			$('.contentContainer').toggle('fold',400);	
+		}
 		
 		if(currentContainerView != currentParentDiv){
 			if(currentImageId==1){
+				$('.contentBox').hide();
 				$('.contentContainer').hide('fold',400,function(){
 					$('.contentContainer').animate({left:currentLeft+150},200,function(){
-						$('.contentContainer').show('fold',1000);						
-					});
-					$('.contentBox').html(coachBio[currentImageId-1]);
+						$('.contentBox').html(coachBio[currentImageId-1]);
+						$('.contentContainer').show('fold',600,function(){
+							$(".contentBox").show();
+							$(".contentBox").mCustomScrollbar({theme:"dark"});								
+						});						
+					});					
 				});
 			}
 			if((currentImageId>1)&& (currentImageId<5)){
+				$('.contentBox').hide();
 				$('.contentContainer').hide('fold',400,function(){
 					$('.contentContainer').animate({left:currentLeft},200,function(){
-						$('.contentContainer').show('fold',1000);						
-					});
-					$('.contentBox').html(coachBio[currentImageId-1]);
+						$('.contentBox').html(coachBio[currentImageId-1]);
+						$('.contentContainer').show('fold',600,function(){
+							$(".contentBox").show();
+							$(".contentBox").mCustomScrollbar({theme:"dark"});								
+						});						
+					});					
 				});
 			}
 			if(currentImageId==5){
+				$('.contentBox').hide();
 				$('.contentContainer').hide('fold',400,function(){
 					$('.contentContainer').animate({left:currentLeft-70},200,function(){
-						$('.contentContainer').show('fold',1000);						
-					});
-					$('.contentBox').html(coachBio[currentImageId-1]);
+						$('.contentBox').html(coachBio[currentImageId-1]);
+						$('.contentContainer').show('fold',600,function(){
+							$(".contentBox").show();
+							$(".contentBox").mCustomScrollbar({theme:"dark"});								
+						});						
+					});					
 				});
 			}
 			currentContainerView = currentParentDiv;
@@ -77,5 +93,5 @@ $(document).ready(function() {
 	$(window).resize(function() {
 		$('.contentContainer').hide('clip',1000);        
     });
-    
+	$('.mCSB_container').css('padding-right','20px');    
 });
