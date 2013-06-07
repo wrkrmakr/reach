@@ -9,7 +9,7 @@ a,
 a:visited,
 a:hover,
 a:focus {
-	color: #999;
+	color: #666;
 	text-decoration: none;
 	outline:none;
 }
@@ -30,15 +30,15 @@ a:focus {
 	top: 0px;
 	left: 0px;
 	color: white;
-	width: 44%;
+	width: 51%;
 	height: 60px;
 	background-color: rgba(0,0,0,0.8);
 }
 #logo img {
 	position: absolute;
-	top:3px;
+	top:7px;
 	left:40px;
-	width: 120px;
+	width: 400px;
 }
 
 a:visited,
@@ -58,7 +58,28 @@ a:focus {
 .contentContainer{
 	background-color: rgba(255,255,255,0.8);
 	border-bottom:8px solid #ee4823;
+
+	position:absolute;
+	top:47%;
+	left:54%;
+	height:30%;
+	width:34%;
 }
+.arrow {
+	position: fixed;
+	top: 47%;
+	cursor: pointer;
+	height: 90px;
+}
+#leftscroll {
+	left: 0px;
+}
+#rightscroll {
+	right: 0px;
+}
+
+
+
 .contentBox{
 	position: absolute;
 	top:8%;
@@ -72,7 +93,7 @@ a:focus {
 /*	top:5px;*/
 	margin:0px;
 	padding:0px 0px 10px;
-	font-size: 40px;
+	font-size: 31px;
 	font-weight: 400;
 	vertical-align: bottom;
 	font-family: "Helvetica-Condensed", sans-serif;
@@ -82,6 +103,10 @@ a:focus {
 	font-size: 20px;
 	line-height: 24px;
 	margin-left: 2px;
+	font-family: "Gotham-Book", sans-serif;
+}
+
+.contentBox ul li {
 	font-family: "Gotham-Book", sans-serif;
 }
 .contentPoints{
@@ -98,7 +123,7 @@ a:focus {
 .navbar-inverse,
 .navbar-fixed-top{
 	z-index: 999;
-	width: 56%;
+	width: 49%;
 	right: 0px;
 	left: auto;
 }
@@ -141,7 +166,7 @@ a:focus {
 
 .dropdown-menu{
 	top: 47px;
-	width: 300px;
+	width: 280px;
 	border-radius: 0;
 	font-size: 20px;
 	overflow: visible;
@@ -168,7 +193,7 @@ a:focus {
 		font-size: 20px;
 	}
 	.contentBox h1{
-		font-size: 35px;
+		font-size: 31px;
 	}
 	.contentBox p{
 		font-size: 17px;
@@ -423,6 +448,14 @@ a:focus {
 	.navbar .nav .dropdown ul{
 		font-size:15px;
 	}
+
+.contentContainer {	
+	position:absolute;
+	top:20%;
+	left:20%;
+	height:50%;
+	width:60%;
+}
 }
 @media(max-width : 480px) and (orientation:portrait){
 	.nav-collapse .dropdown-menu {

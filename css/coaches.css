@@ -17,9 +17,8 @@ body{
 	background-color: rgba(255,255,255,0.8);
 	border-bottom:8px solid #ee4823;
 }
-
-.contentBox{
-	
+.mCSB_container{
+	padding-right:0px;	
 }
 
 .contentBox h1 {
@@ -30,6 +29,11 @@ body{
 .contentBox p {
 	font-size:16px;
 	line-height:20px;
+	padding-right:6px;
+}
+
+.contentBox ul li {
+	padding-right:10px;
 }
 
 #coach ul{
