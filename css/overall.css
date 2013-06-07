@@ -499,13 +499,13 @@ a:focus {
 		width: 250px;
 		left: 25px;
 	}
-	/*--------CONTENT BOX---------*/
 	.contentContainer{
-		top:47%;
-		left:0%;
+		top:40%;
+		left:35%;
 		height:40%;
 		width:47%;
 	}
+	
 	.nav-collapse .dropdown-menu {
 		position: absolute;
 		top: 0px;
@@ -518,13 +518,6 @@ a:focus {
 		font-size:15px;
 	}
 
-.contentContainer {	
-	position:absolute;
-	top:20%;
-	left:20%;
-	height:50%;
-	width:60%;
-}
 }
 @media(max-width : 480px) and (orientation:portrait){
 	#logo {
@@ -534,6 +527,12 @@ a:focus {
 	#logo a img {
 		width: 225px;
 		left: 20px;
+	}
+	.contentContainer{
+		top:40%;
+		left:35%;
+		height:40%;
+		width:47%;
 	}
 	.nav-collapse .dropdown-menu {
 		position: static;
@@ -567,6 +566,12 @@ a:focus {
 	#logo a img {
 		width: 200px;
 		left: 20px;
+	}
+	.contentContainer{
+		top:40%;
+		left:15%;
+		height:40%;
+		width:60%;
 	}	
 }
 @media(max-width : 320px) and (orientation:portrait){
@@ -579,5 +584,11 @@ a:focus {
 	#logo a img {
 		width: 200px;
 		left: 20px;
+	}
+	.contentContainer{
+		top:30%;
+		left:25%;
+		height:50%;
+		width:60%;
 	}	
 }
