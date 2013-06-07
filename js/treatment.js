@@ -35,6 +35,22 @@ $(document).ready(function(){
 		$(this).attr('src', ('img/Arrows/' + $(this).attr('id') + '.png'));
 	});
 
+	$(document).keydown(function(e){
+	    if (e.keyCode == 37) { 
+	        if (currentTreatment > 1) {
+				currentTreatment--;
+				changeContent();
+			}
+	    }
+	  	else if (e.keyCode == 39) {
+	  		if (currentTreatment < 2) {
+				currentTreatment++;
+				changeContent();
+			}
+	  	}
+	  	return false;
+	});
+
 	function getUrlVars() {
 	    var vars = {};
 	    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {

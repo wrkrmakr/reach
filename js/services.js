@@ -21,6 +21,7 @@ $(document).ready(function(){
 			changeContent();
 		}
 	});
+
 	$("#rightscroll").click(function(){
 		if (currentService < 4) {
 			currentService++;
@@ -33,6 +34,22 @@ $(document).ready(function(){
 	},
 	function(){
 		$(this).attr('src', ('img/Arrows/' + $(this).attr('id') + '.png'));
+	});
+
+	$(document).keydown(function(e){
+	    if (e.keyCode == 37) { 
+	        if (currentService > 1) {
+				currentService--;
+				changeContent();
+			}
+	    }
+	  	else if (e.keyCode == 39) {
+	  		if (currentService < 4) {
+				currentService++;
+				changeContent();
+			}
+	  	}
+	  	return false;
 	});
 
 	function getUrlVars() {
