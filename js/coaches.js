@@ -45,9 +45,8 @@ $(document).ready(function() {
 		var currentImageId=$(this).attr('id');
 		var currentParentDiv = $(this).parent().attr('id');
 		if(currentContainerView == currentParentDiv){
-			$('.contentContainer').toggle('fold',400);	
-		}
-		
+			$('.contentContainer').toggle('fold',400);
+		}		
 		if(currentContainerView != currentParentDiv){
 			if(currentImageId==1){
 				$('.contentBox').hide();
@@ -87,11 +86,9 @@ $(document).ready(function() {
 			}
 			currentContainerView = currentParentDiv;
 		}
-		
-			
 	});
 	$(window).resize(function() {
-		$('.contentContainer').hide('clip',1000);        
+		$('.contentContainer').hide('fold',1000);        
     });
 	$('.mCSB_container').css('padding-right','20px');    
 });
