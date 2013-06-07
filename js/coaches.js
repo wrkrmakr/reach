@@ -90,5 +90,5 @@ $(document).ready(function() {
 	$(window).resize(function() {
 		$('.contentContainer').hide('clip',1000);        
     });
-    
+	$('.mCSB_container').css('padding-right','20px');    
 });
