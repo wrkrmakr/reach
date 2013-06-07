@@ -19,7 +19,7 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 	$message = '<html><body>';
-	$message .= '<table rules="all" style="border-color: #000;" cellpadding="10"> <caption style="font-weight: bold;">Enquiry Message</caption>';
+	$message .= '<table rules="all" style="border-color: #000;" cellpadding="10"> <caption style="font-weight: bold;">Inquiry Message</caption>';
 	$message .= "<tr style='background: #eee;'><td><strong>From: </strong> </td><td>" . $name . "</td></tr>";
 	$message .= "<tr><td><strong>Sender`s email: </strong> </td><td>" . $email . "</td></tr>";
 	$message .= "<tr><td><strong>Message: </strong> </td><td>" .$messageFromForm . "</td></tr>";
