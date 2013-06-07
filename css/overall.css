@@ -246,7 +246,8 @@ a:focus {
 		background-color: transparent;
 	}
 	#logo a img {
-		left:30px;
+		width: 350px;
+		left:35px;
 	}
 	.navbar,
 	.navbar-inverse,
@@ -347,7 +348,8 @@ a:focus {
 		background-color: transparent;
 	}
 	#logo a img {
-		left:30px;
+		width: 350px;
+		left:35px;
 	}
 	.navbar,
 	.navbar-inverse,
@@ -444,7 +446,35 @@ a:focus {
 		overflow: visible;
 	}
 }
+@media(max-width : 768px) and (orientation:landscape){
+	#logo {
+		width: 70%;
+		background-color: transparent;
+	}
+	#logo a img {
+		width: 300px;
+		left:30px;
+	}	
+}
+@media(max-width : 768px) and (orientation:portrait){
+	#logo {
+		width: 70%;
+		background-color: transparent;
+	}
+	#logo a img {
+		width: 280px;
+		left:28px;
+	}	
+}
 @media(max-width : 480px) and (orientation:landscape){
+	#logo {
+		width: 65%;
+		background-color: transparent;
+	}
+	#logo a img {
+		width: 250px;
+		left: 25px;
+	}
 	.nav-collapse .dropdown-menu {
 		position: absolute;
 		top: 0px;
@@ -466,6 +496,14 @@ a:focus {
 }
 }
 @media(max-width : 480px) and (orientation:portrait){
+	#logo {
+		width: 65%;
+		background-color: transparent;
+	}
+	#logo a img {
+		width: 225px;
+		left: 20px;
+	}
 	.nav-collapse .dropdown-menu {
 		position: static;
 		top: auto;
@@ -487,4 +525,18 @@ a:focus {
 		z-index: 949;
 	}
 
+}
+@media(max-width : 320px) and (orientation:landscape){
+	#logo {
+		top:10px;
+		width: 55%;
+		background-color: transparent;
+	}
+	#logo a img {
+		width: 200px;
+		left: 20px;
+	}	
+}
+@media(max-width : 320px) and (orientation:portrait){
+	
 }
