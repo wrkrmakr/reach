@@ -44,6 +44,9 @@ $(document).ready(function() {
 		var currentLeft=$(this).parent().offset().left;
 		var currentImageId=$(this).attr('id');
 		var currentParentDiv = $(this).parent().attr('id');
+		if(currentContainerView == currentParentDiv){
+			$('.contentContainer').toggle('fold',400);	
+		}
 		
 		if(currentContainerView != currentParentDiv){
 			if(currentImageId==1){
@@ -51,7 +54,7 @@ $(document).ready(function() {
 				$('.contentContainer').hide('fold',400,function(){
 					$('.contentContainer').animate({left:currentLeft+150},200,function(){
 						$('.contentBox').html(coachBio[currentImageId-1]);
-						$('.contentContainer').show('fold',400,function(){
+						$('.contentContainer').show('fold',600,function(){
 							$(".contentBox").show();
 							$(".contentBox").mCustomScrollbar({theme:"dark"});								
 						});						
@@ -63,7 +66,7 @@ $(document).ready(function() {
 				$('.contentContainer').hide('fold',400,function(){
 					$('.contentContainer').animate({left:currentLeft},200,function(){
 						$('.contentBox').html(coachBio[currentImageId-1]);
-						$('.contentContainer').show('fold',400,function(){
+						$('.contentContainer').show('fold',600,function(){
 							$(".contentBox").show();
 							$(".contentBox").mCustomScrollbar({theme:"dark"});								
 						});						
@@ -75,7 +78,7 @@ $(document).ready(function() {
 				$('.contentContainer').hide('fold',400,function(){
 					$('.contentContainer').animate({left:currentLeft-70},200,function(){
 						$('.contentBox').html(coachBio[currentImageId-1]);
-						$('.contentContainer').show('fold',400,function(){
+						$('.contentContainer').show('fold',600,function(){
 							$(".contentBox").show();
 							$(".contentBox").mCustomScrollbar({theme:"dark"});								
 						});						
