@@ -249,9 +249,9 @@ a:focus {
 	}
 	/*------CONTENT CONTAINER---------*/
 	.contentContainer{
-		left:54%;
-		height:29%;
-		width:33%;
+		left:50%;
+		height:38%;
+		width:40%;
 	}
 	.navbar,
 	.navbar-inverse,
@@ -358,9 +358,9 @@ a:focus {
 	}
 	/*------CONTENT CONTAINER---------*/
 	.contentContainer{
-		left:54%;
-		height:29%;
-		width:33%;
+		left:50%;
+		height:38%;
+		width:40%;
 	}
 	.navbar,
 	.navbar-inverse,
