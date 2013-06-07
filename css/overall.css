@@ -77,9 +77,6 @@ a:focus {
 #rightscroll {
 	right: 0px;
 }
-
-
-
 .contentBox{
 	position: absolute;
 	top:8%;
@@ -241,6 +238,7 @@ a:focus {
 
 
 @media(max-width : 1024px) and (orientation:landscape){
+	/*------LOGO---------*/
 	#logo {
 		width: 80%;
 		background-color: transparent;
@@ -248,6 +246,12 @@ a:focus {
 	#logo a img {
 		width: 350px;
 		left:35px;
+	}
+	/*------CONTENT CONTAINER---------*/
+	.contentContainer{
+		left:54%;
+		height:29%;
+		width:33%;
 	}
 	.navbar,
 	.navbar-inverse,
@@ -343,6 +347,7 @@ a:focus {
 
 }
 @media(max-width : 1024px) and (orientation:portrait){
+	/*-------LOGO-----*/
 	#logo {
 		width: 80%;
 		background-color: transparent;
@@ -350,6 +355,12 @@ a:focus {
 	#logo a img {
 		width: 350px;
 		left:35px;
+	}
+	/*------CONTENT CONTAINER---------*/
+	.contentContainer{
+		left:54%;
+		height:29%;
+		width:33%;
 	}
 	.navbar,
 	.navbar-inverse,
@@ -454,7 +465,15 @@ a:focus {
 	#logo a img {
 		width: 300px;
 		left:30px;
-	}	
+	}
+	/*--------CONTENT BOX---------*/
+	.contentContainer{
+		top:47%;
+		left:50%;
+		height:40%;
+		width:44%;
+	}
+	
 }
 @media(max-width : 768px) and (orientation:portrait){
 	#logo {
