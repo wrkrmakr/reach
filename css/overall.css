@@ -469,11 +469,10 @@ a:focus {
 	/*--------CONTENT BOX---------*/
 	.contentContainer{
 		top:47%;
-		left:50%;
+		left:40%;
 		height:40%;
-		width:44%;
-	}
-	
+		width:47%;
+	}	
 }
 @media(max-width : 768px) and (orientation:portrait){
 	#logo {
@@ -483,6 +482,12 @@ a:focus {
 	#logo a img {
 		width: 280px;
 		left:28px;
+	}
+	.contentContainer{
+		top:47%;
+		left:40%;
+		height:40%;
+		width:47%;
 	}	
 }
 @media(max-width : 480px) and (orientation:landscape){
@@ -493,6 +498,13 @@ a:focus {
 	#logo a img {
 		width: 250px;
 		left: 25px;
+	}
+	/*--------CONTENT BOX---------*/
+	.contentContainer{
+		top:47%;
+		left:0%;
+		height:40%;
+		width:47%;
 	}
 	.nav-collapse .dropdown-menu {
 		position: absolute;
