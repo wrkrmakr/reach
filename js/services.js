@@ -49,7 +49,7 @@ $(document).ready(function(){
 				changeContent();
 			}
 	  	}
-	  	return false;
+	  	return e;
 	});
 
 	function getUrlVars() {
