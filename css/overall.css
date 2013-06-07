@@ -34,10 +34,10 @@ a:focus {
 	height: 60px;
 	background-color: rgba(0,0,0,0.8);
 }
-#logo img {
+#logo a img {
 	position: absolute;
 	top:7px;
-	left:40px;
+	left:50px;
 	width: 400px;
 }
 
@@ -242,7 +242,11 @@ a:focus {
 
 @media(max-width : 1024px) and (orientation:landscape){
 	#logo {
+		width: 80%;
 		background-color: transparent;
+	}
+	#logo a img {
+		left:30px;
 	}
 	.navbar,
 	.navbar-inverse,
@@ -339,7 +343,11 @@ a:focus {
 }
 @media(max-width : 1024px) and (orientation:portrait){
 	#logo {
+		width: 80%;
 		background-color: transparent;
+	}
+	#logo a img {
+		left:30px;
 	}
 	.navbar,
 	.navbar-inverse,
