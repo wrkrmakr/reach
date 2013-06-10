@@ -36,8 +36,8 @@
 	position:relative;
 	background-image:url(../img/check.png);
 	background-size: 100% 100%;
-	width:200px;
-	height:150px;
+	width:150px;
+	height:100px;
 		
 }
 #infoCont{
@@ -88,7 +88,7 @@ input[type="text"]{
 
 textarea{
 	background-color:rgba(0,0,0,0.8);
-	width: 450px;
+	width: 400px;
 	color:white;
 	border-radius:0;
 	font-family: "Helvetica-Condensed", sans-serif;
@@ -130,7 +130,7 @@ label{
 }
 input:-moz-placeholder,textarea:-moz-placeholder{color:#fff}
 input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#ff}
-input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#fff}
+input:-webkit-input-placeholder,textarea:-webkit-input-placeholder{color:#fff}
 
 textarea:focus, input[type="text"]:focus {   
 border-color:#FF2500;

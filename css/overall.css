@@ -4,7 +4,6 @@ html, body {
 	margin: 0;
 	padding: 0;
 }
-
 a,
 a:visited,
 a:hover,
@@ -77,9 +76,6 @@ a:focus {
 #rightscroll {
 	right: 0px;
 }
-
-
-
 .contentBox{
 	position: absolute;
 	top:8%;
@@ -193,7 +189,8 @@ a:focus {
 		font-size: 20px;
 	}
 	.contentBox h1{
-		font-size: 31px;
+		font-size: 28px;
+		font-weight: 400;
 	}
 	.contentBox p{
 		font-size: 17px;
@@ -213,10 +210,8 @@ a:focus {
 		font-size: 17px;
 	}
 	.contentBox h1{
-		font-size: 30px;
-	}
-	.contentBox p{
-		font-size: 15px;
+		font-size: 26px;
+		font-weight: 400;
 	}
 	/*.navbar,
 	.navbar-inverse,
@@ -228,25 +223,40 @@ a:focus {
 	}*/
 }
 
-@media(max-width : 1150px) and (orientation:landscape){
-	/*.navbar,
-	.navbar-inverse,
-	.navbar-fixed-top{
-		width: 62%;
+@media(max-width : 1200px) and (orientation:landscape){
+	.contentBox h1{
+		font-size: 24px;
+		font-weight: 400;
+		padding:0px 0px 9px;
 	}
-	#logo {
-		width: 38%;
-	}*/
+}
+@media(max-width : 1100px) and (orientation:landscape){
+	.contentBox h1{
+		font-size: 22px;
+		font-weight: 400;
+		padding:0px 0px 9px;
+	}
 }
 
-
 @media(max-width : 1024px) and (orientation:landscape){
+	/*------LOGO---------*/
 	#logo {
 		width: 80%;
 		background-color: transparent;
 	}
 	#logo a img {
-		left:30px;
+		width: 350px;
+		left:35px;
+	}
+	/*------CONTENT CONTAINER---------*/
+	.contentContainer{
+		left:50%;
+		height:38%;
+		width:40%;
+	}
+	.contentBox h1{
+		font-size: 22px;
+		font-weight: 400;
 	}
 	.navbar,
 	.navbar-inverse,
@@ -342,12 +352,20 @@ a:focus {
 
 }
 @media(max-width : 1024px) and (orientation:portrait){
+	/*-------LOGO-----*/
 	#logo {
 		width: 80%;
 		background-color: transparent;
 	}
 	#logo a img {
-		left:30px;
+		width: 350px;
+		left:35px;
+	}
+	/*------CONTENT CONTAINER---------*/
+	.contentContainer{
+		left:50%;
+		height:38%;
+		width:40%;
 	}
 	.navbar,
 	.navbar-inverse,
@@ -444,7 +462,84 @@ a:focus {
 		overflow: visible;
 	}
 }
-@media(max-width : 480px) and (orientation:landscape){
+@media(max-width : 900px) and (orientation:landscape){
+	.contentBox h1{
+		font-size: 19px;
+		font-weight: 400;
+	}
+}
+@media(max-width : 768px) and (orientation:landscape){
+	#logo {
+		width: 70%;
+		background-color: transparent;
+	}
+	#logo a img {
+		width: 300px;
+		left:30px;
+	}
+	/*--------CONTENT BOX---------*/
+	.contentContainer{
+		top:47%;
+		left:40%;
+		height:40%;
+		width:47%;
+	}
+	.contentBox h1{
+		font-size: 18px;
+		font-weight: 400;
+		padding:0px 0px 8px;
+	}	
+}
+@media(max-width : 768px) and (orientation:portrait){
+	#logo {
+		width: 70%;
+		background-color: transparent;
+	}
+	#logo a img {
+		width: 280px;
+		left:28px;
+	}
+	.contentContainer{
+		top:47%;
+		left:40%;
+		height:40%;
+		width:47%;
+	}	
+}
+@media(max-width : 600px) and (orientation:landscape){
+	.contentBox h1{
+		width:
+		font-size: 16px;
+		font-weight: 500;
+		padding:0px 0px 5px;
+	}
+	.contentContainer{
+		top:40%;
+		left:25%;
+		height:40%;
+		width:65%;
+	}
+}
+@media(max-width : 500px) and (orientation:landscape){
+	#logo {
+		width: 65%;
+		background-color: transparent;
+	}
+	#logo a img {
+		width: 250px;
+		left: 25px;
+	}
+	.contentContainer{
+		top:40%;
+		left:25%;
+		height:40%;
+		width:65%;
+	}
+	.contentBox h1{
+		font-size: 13px;
+		font-weight: 500;
+		padding:0px 0px 0px;
+	}	
 	.nav-collapse .dropdown-menu {
 		position: absolute;
 		top: 0px;
@@ -457,15 +552,22 @@ a:focus {
 		font-size:15px;
 	}
 
-.contentContainer {	
-	position:absolute;
-	top:20%;
-	left:20%;
-	height:50%;
-	width:60%;
 }
-}
-@media(max-width : 480px) and (orientation:portrait){
+@media(max-width : 500px) and (orientation:portrait){
+	#logo {
+		width: 65%;
+		background-color: transparent;
+	}
+	#logo a img {
+		width: 225px;
+		left: 20px;
+	}
+	.contentContainer{
+		top:40%;
+		left:35%;
+		height:40%;
+		width:47%;
+	}
 	.nav-collapse .dropdown-menu {
 		position: static;
 		top: auto;
@@ -487,4 +589,50 @@ a:focus {
 		z-index: 949;
 	}
 
+}
+@media(max-width : 320px) and (min-width : 0px) and (orientation:landscape){
+	#logo {
+		top:10px;
+		left: 20px;
+		width: 55%;
+		background-color: transparent;
+	}
+	#logo a img {
+		width: 200px;
+		left: 20px;
+	}
+	.contentContainer{
+		top:40%;
+		left:25%;
+		height:40%;
+		width:65%;
+	}
+	.contentBox h1{
+		font-size: 10px;
+		font-weight: 500;
+		padding:0px 0px 0px;
+	}	
+}
+@media(max-width : 320px) and (min-width : 0px)and (orientation:portrait){
+	#logo {
+		top:10px;
+		left: 20px;
+		width: 55%;
+		background-color: transparent;
+	}
+	#logo a img {
+		width: 200px;
+		left: 20px;
+	}
+	.contentContainer{
+		top:30%;
+		left:25%;
+		height:50%;
+		width:60%;
+	}	
+	.contentBox h1{
+		font-size: 10px;
+		font-weight: 500;
+		padding:0px 0px 0px;
+	}
 }
