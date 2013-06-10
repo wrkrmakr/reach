@@ -472,6 +472,13 @@ a:focus {
 		height:40%;
 		width:55%;
 	}
+	#leftscroll{
+		height: 80px;		
+	}
+	#rightscroll{
+		height: 80px;		
+	}
+	
 }
 @media(max-width : 768px) and (orientation:landscape){
 	#logo {
@@ -501,6 +508,12 @@ a:focus {
 	.contentBox ul li {
 		font-size:14px;
 	}
+	#leftscroll{
+		height: 75px;		
+	}
+	#rightscroll{
+		height: 75px;		
+	}
 }
 @media(max-width : 768px) and (orientation:portrait){
 	#logo {
@@ -529,6 +542,12 @@ a:focus {
 	.contentBox ul li {
 		font-size:13px;
 	}
+	#leftscroll{
+		height: 75px;		
+	}
+	#rightscroll{
+		height: 75px;		
+	}
 }
 @media(max-width : 600px) and (orientation:landscape){
 	.contentContainer{
@@ -549,6 +568,12 @@ a:focus {
 	.contentBox ul li {
 		font-size:14px;
 	}
+	#leftscroll{
+		height: 70px;		
+	}
+	#rightscroll{
+		height: 70px;		
+	}
 }
 @media(max-width : 600px) and (orientation:portrait){
 	.contentContainer{
@@ -568,6 +593,12 @@ a:focus {
 	}
 	.contentBox ul li {
 		font-size:13px;
+	}
+	#leftscroll{
+		height: 60px;		
+	}
+	#rightscroll{
+		height: 60px;		
 	}
 }
 @media(max-width : 500px) and (orientation:landscape){
@@ -597,6 +628,12 @@ a:focus {
 	.contentBox ul li {
 		font-size:12px;
 	}	
+	#leftscroll{
+		height: 50px;		
+	}
+	#rightscroll{
+		height: 50px;		
+	}
 	.nav-collapse .dropdown-menu {
 		position: absolute;
 		top: 0px;
@@ -636,6 +673,12 @@ a:focus {
 	}
 	.contentBox ul li {
 		font-size:13px;
+	}
+	#leftscroll{
+		height: 50px;		
+	}
+	#rightscroll{
+		height: 50px;		
 	}
 	
 	.nav-collapse .dropdown-menu {
@@ -689,6 +732,12 @@ a:focus {
 	.contentBox ul li {
 		font-size:10px;
 	}
+	#leftscroll{
+		height: 40px;		
+	}
+	#rightscroll{
+		height: 40px;		
+	}
 }
 @media(max-width : 320px) and (min-width : 0px)and (orientation:portrait){
 	#logo {
@@ -718,5 +767,11 @@ a:focus {
 	}
 	.contentBox ul li {
 		font-size:11px;
+	}
+	#leftscroll{
+		height: 40px;		
+	}
+	#rightscroll{
+		height: 40px;		
 	}
 }
