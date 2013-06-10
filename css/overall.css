@@ -522,12 +522,12 @@ a:focus {
 @media(max-width : 600px) and (orientation:portrait){
 	.contentContainer{
 		top:40%;
-		left:0%;
+		left:25%;
 		height:40%;
 		width:65%;
 	}
 	.contentBox h1{
-		font-size: 16px;
+		font-size: 18px;
 		font-weight: 500;
 		padding:0px 0px 5px;
 	}
@@ -576,9 +576,14 @@ a:focus {
 	}
 	.contentContainer{
 		top:40%;
-		left:35%;
+		left:15%;
 		height:40%;
-		width:47%;
+		width:68%;
+	}
+	.contentBox h1{
+		font-size: 13px;
+		font-weight: 900;
+		padding:0px 0px 0px;
 	}
 	.nav-collapse .dropdown-menu {
 		position: static;
