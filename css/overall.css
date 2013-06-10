@@ -5,7 +5,6 @@ html, body {
 	padding: 0;
 	background-color: black;
 }
-
 a,
 a:visited,
 a:hover,
@@ -231,12 +230,11 @@ a:focus {
 		font-weight: 400;
 		padding:0px 0px 9px;
 	}
-}
-@media(max-width : 1100px) and (orientation:landscape){
-	.contentBox h1{
-		font-size: 22px;
-		font-weight: 400;
-		padding:0px 0px 9px;
+	.contentContainer{
+		top:47%;
+		left:40%;
+		height:40%;
+		width:45%;
 	}
 }
 
@@ -252,9 +250,9 @@ a:focus {
 	}
 	/*------CONTENT CONTAINER---------*/
 	.contentContainer{
-		left:50%;
+		left:40%;
 		height:38%;
-		width:40%;
+		width:45%;
 	}
 	.contentBox h1{
 		font-size: 22px;
@@ -466,9 +464,22 @@ a:focus {
 }
 @media(max-width : 900px) and (orientation:landscape){
 	.contentBox h1{
-		font-size: 19px;
+		font-size: 21px;
 		font-weight: 400;
 	}
+	.contentContainer{
+		top:47%;
+		left:35%;
+		height:40%;
+		width:55%;
+	}
+	#leftscroll{
+		height: 80px;		
+	}
+	#rightscroll{
+		height: 80px;		
+	}
+	
 }
 @media(max-width : 768px) and (orientation:landscape){
 	#logo {
@@ -482,15 +493,28 @@ a:focus {
 	/*--------CONTENT BOX---------*/
 	.contentContainer{
 		top:47%;
-		left:40%;
+		left:30%;
 		height:40%;
-		width:47%;
+		width:55%;
 	}
 	.contentBox h1{
-		font-size: 18px;
-		font-weight: 400;
+		font-size: 20px;
+		font-weight: 900;
 		padding:0px 0px 8px;
-	}	
+	}
+	.contentBox p{
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.contentBox ul li {
+		font-size:14px;
+	}
+	#leftscroll{
+		height: 75px;		
+	}
+	#rightscroll{
+		height: 75px;		
+	}
 }
 @media(max-width : 768px) and (orientation:portrait){
 	#logo {
@@ -502,17 +526,80 @@ a:focus {
 		left:28px;
 	}
 	.contentContainer{
-		top:47%;
-		left:40%;
+		top:44%;
+		left:30%;
 		height:40%;
-		width:47%;
+		width:55%;
 	}	
-}
-@media(max-width : 600px) and (orientation:landscape){
 	.contentBox h1{
-		font-size: 16px;
+		font-size:20px;
 		font-weight: 500;
 		padding:0px 0px 5px;
+	}
+	.contentBox p{
+		font-size: 15px;
+		line-height: 22px;
+	}
+	.contentBox ul li {
+		font-size:13px;
+	}
+	#leftscroll{
+		height: 75px;		
+	}
+	#rightscroll{
+		height: 75px;		
+	}
+}
+@media(max-width : 600px) and (orientation:landscape){
+	.contentContainer{
+		top:47%;
+		left:25%;
+		height:40%;
+		width:65%;
+	}
+	.contentBox h1{
+		font-size: 18px;
+		font-weight: 900;
+		padding:0px 0px 8px;
+	}
+	.contentBox p{
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.contentBox ul li {
+		font-size:14px;
+	}
+	#leftscroll{
+		height: 70px;		
+	}
+	#rightscroll{
+		height: 70px;		
+	}
+}
+@media(max-width : 600px) and (orientation:portrait){
+	.contentContainer{
+		top:42%;
+		left:30%;
+		height:40%;
+		width:60%;
+	}	
+	.contentBox h1{
+		font-size:19px;
+		font-weight: 550;
+		padding:0px 0px 5px;
+	}
+	.contentBox p{
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.contentBox ul li {
+		font-size:13px;
+	}
+	#leftscroll{
+		height: 60px;		
+	}
+	#rightscroll{
+		height: 60px;		
 	}
 }
 @media(max-width : 500px) and (orientation:landscape){
@@ -526,15 +613,28 @@ a:focus {
 	}
 	.contentContainer{
 		top:40%;
-		left:35%;
-		height:40%;
-		width:50%;
+		left:10%;
+		height:45%;
+		width:80%;
 	}
 	.contentBox h1{
-		font-size: 13px;
-		font-weight: 500;
+		font-size: 17px;
+		font-weight: 600;
 		padding:0px 0px 0px;
 	}	
+	.contentBox p{
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.contentBox ul li {
+		font-size:12px;
+	}	
+	#leftscroll{
+		height: 50px;		
+	}
+	#rightscroll{
+		height: 50px;		
+	}
 	.nav-collapse .dropdown-menu {
 		position: absolute;
 		top: 0px;
@@ -558,11 +658,30 @@ a:focus {
 		left: 20px;
 	}
 	.contentContainer{
-		top:40%;
-		left:35%;
+		top:44%;
+		left:15%;
 		height:40%;
-		width:47%;
+		width:75%;
+	}	
+	.contentBox h1{
+		font-size:16px;
+		font-weight: 700;
+		padding:0px 0px 0px;
 	}
+	.contentBox p{
+		font-size: 13px;
+		line-height: 18px;
+	}
+	.contentBox ul li {
+		font-size:13px;
+	}
+	#leftscroll{
+		height: 50px;		
+	}
+	#rightscroll{
+		height: 50px;		
+	}
+	
 	.nav-collapse .dropdown-menu {
 		position: static;
 		top: auto;
@@ -600,13 +719,26 @@ a:focus {
 		top:40%;
 		left:15%;
 		height:40%;
-		width:60%;
+		width:75%;
 	}
 	.contentBox h1{
-		font-size: 10px;
-		font-weight: 500;
+		font-size: 14px;
+		font-weight: 600;
 		padding:0px 0px 0px;
 	}	
+	.contentBox p{
+		font-size: 12px;
+		line-height: 13px;
+	}
+	.contentBox ul li {
+		font-size:10px;
+	}
+	#leftscroll{
+		height: 40px;		
+	}
+	#rightscroll{
+		height: 40px;		
+	}
 }
 @media(max-width : 320px) and (min-width : 0px)and (orientation:portrait){
 	#logo {
@@ -621,13 +753,26 @@ a:focus {
 	}
 	.contentContainer{
 		top:30%;
-		left:25%;
-		height:50%;
-		width:60%;
+		left:10%;
+		height:60%;
+		width:80%;
 	}	
 	.contentBox h1{
-		font-size: 10px;
+		font-size: 15px;
 		font-weight: 500;
 		padding:0px 0px 0px;
+	}
+	.contentBox p{
+		font-size: 13px;
+		line-height: 22px;
+	}
+	.contentBox ul li {
+		font-size:11px;
+	}
+	#leftscroll{
+		height: 40px;		
+	}
+	#rightscroll{
+		height: 40px;		
 	}
 }
