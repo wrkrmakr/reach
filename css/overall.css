@@ -505,19 +505,31 @@ a:focus {
 		height:40%;
 		width:47%;
 	}	
-}
-@media(max-width : 600px) and (orientation:landscape){
 	.contentBox h1{
-		width:
 		font-size: 16px;
 		font-weight: 500;
 		padding:0px 0px 5px;
 	}
+}
+@media(max-width : 600px) and (orientation:landscape){
 	.contentContainer{
 		top:40%;
 		left:25%;
 		height:40%;
 		width:65%;
+	}
+}
+@media(max-width : 600px) and (orientation:portrait){
+	.contentContainer{
+		top:40%;
+		left:0%;
+		height:40%;
+		width:65%;
+	}
+	.contentBox h1{
+		font-size: 16px;
+		font-weight: 500;
+		padding:0px 0px 5px;
 	}
 }
 @media(max-width : 500px) and (orientation:landscape){
@@ -531,7 +543,7 @@ a:focus {
 	}
 	.contentContainer{
 		top:40%;
-		left:25%;
+		left:20%;
 		height:40%;
 		width:65%;
 	}
