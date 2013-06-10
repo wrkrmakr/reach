@@ -3,6 +3,7 @@
 $(document).ready(function() {
 	//$('.contentContainer').hide();	
 	//$('.contentBox').hide();
+	
 	var currentContainerView="";
 	var currentParentDiv = $(this).parent().attr('id');
 	
@@ -49,14 +50,18 @@ $(document).ready(function() {
 		if(currentContainerView != currentParentDiv){
 			$('.contentContainer:visible').hide();		
 			if($('#cont'+currentImageId).css('display')=='none'){
-				$('#cont'+currentImageId).show('fold',400);
+				$('#cont'+currentImageId).show('fold',400,function(){
+					$(this).find(".contentBox").mCustomScrollbar("update");	
+				});
 			}
 			else{
 				$('#cont'+currentImageId).hide('fold',400);			
 			}
 		}
 		else{
-			$('#cont'+currentImageId).toggle('fold',400);
+			$('#cont'+currentImageId).toggle('fold',400,function(){
+				$(this).find(".contentBox").mCustomScrollbar("update");		
+			});
 			
 		}
 		currentContainerView = currentParentDiv;
