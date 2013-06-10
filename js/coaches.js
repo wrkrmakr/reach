@@ -45,8 +45,9 @@ $(document).ready(function() {
 	$('.coach img').click(function(){
 		var currentImageId = $(this).attr('id');
 		var currentParentDiv = $(this).parent().attr('id');
-		$('.contentContainer:visible').hide();
-		if(currentContainerView != currentParentDiv){		
+		
+		if(currentContainerView != currentParentDiv){
+			$('.contentContainer:visible').hide();		
 			if($('#cont'+currentImageId).css('display')=='none'){
 				$('#cont'+currentImageId).show('fold',400);
 			}
