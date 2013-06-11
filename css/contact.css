@@ -115,9 +115,12 @@ textarea{
 }
 #fbIcon{
 	position:relative;
-	left:395px;
+	left:350px;
 }
-
+#twitterIcon{
+	position:relative;
+	left:360px;
+}
 label{
 	color: #FFF;
 	display: inline;
