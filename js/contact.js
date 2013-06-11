@@ -33,11 +33,11 @@ $(document).ready(function(){
        messages: {
             "name": {
                 required: "<br />&nbsp;&nbsp;&nbsp;Please enter your full name",
-				minlength: jQuery.format("At least {0} characters required")
+				minlength: jQuery.format("<br />&nbsp;&nbsp;&nbsp;At least {0} characters required")
             },
 			"inputEmail": {
                 required: "<br />&nbsp;&nbsp;&nbsp;Please enter your e-mail address",
-				email: "<br />Please enter a valid e-mail address"
+				email: "<br />&nbsp;&nbsp;&nbsp;Please enter a valid e-mail address"
             },
 			"mailMessage": {
                 required: "<br /><br />&nbsp;&nbsp;&nbsp;Please send us a note"

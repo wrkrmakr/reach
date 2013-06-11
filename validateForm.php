@@ -26,5 +26,5 @@
 	
 	//Send mail	
 	mail($to,$subject,$message,$headers);
-	die( "We have received your e-mail. You will receive a reply shortly.");
+	die( "We have received your e-mail. You will receive a reply shortly.<br /><br />");
 ?>

@@ -26,7 +26,7 @@
 	/*background-image:url(../img/map.png);*/
 	background-size: 100% 100%;
 	background-color:#999;
-	width: 65%;
+	width: 70%;
 	height:240px;
 }
 #map{
@@ -150,7 +150,14 @@ outline: 0 none;}
 	.bgimage{
 		background-image:url(../img/REACH_CONTACT_IMG768.jpg);
 	}	
+}
+@media(max-width : 1024px) and (orientation:landscape){
+	#leftCont{
+		top:25%;	
+	}	
+}
+@media(max-width : 768px){
 	#rightCont{
 		left:11%;	
-	}
+	}	
 }
