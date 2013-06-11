@@ -50,7 +50,8 @@ body{
 	display:none;	
 }
 .mCSB_container{
-	padding-right:0px;	
+	padding-right:0px;
+	margin-right:0px;
 }
 
 .contentBox h1 {

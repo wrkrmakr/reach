@@ -2,6 +2,10 @@
 /* vertical scrollbar */
 .mCSB_container{
 	width:auto;
+<<<<<<< HEAD
+=======
+	margin-right:20px;
+>>>>>>> 749fcfe6dc0b3ae14884e29dc25c83e1ab96b230
 	overflow:hidden;
 }
 .mCSB_container.mCS_no_scrollbar{
