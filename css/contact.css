@@ -28,9 +28,12 @@
 	/*background-image:url(../img/map.png);*/
 	background-size: 100% 100%;
 	background-color:#999;
-	width:380px;
-	height:250px;
-	
+	width: 50%;
+	height:240px;
+}
+#map{
+	width:100%;
+	height:100%;
 }
 #tickCont{
 	position:relative;
@@ -88,7 +91,7 @@ input[type="text"]{
 
 textarea{
 	background-color:rgba(0,0,0,0.8);
-	width: 400px;
+	width: 300px;
 	color:white;
 	border-radius:0;
 	font-family: "Helvetica-Condensed", sans-serif;
@@ -98,8 +101,8 @@ textarea{
 	margin:10px;
 }
 #form1Submit{
-	position:absolute;
-	left:390px;	
+	position:relative;
+	left:250px;	
 	background:none;
 	border:none;
 }
@@ -110,12 +113,20 @@ textarea{
 	font-weight:400;
 }
 #iconCont{
-	position: absolute;
-	left: 390px;
+	position: relative;
+	width:300px;
 }
 .iconImage{
 	height:35px;
 	width:35px;	
+}
+#fbIcon{
+	position:relative;
+	left: 250px;	
+}
+#twitterIcon{
+	position:relative;
+	left: 255px;	
 }
 label{
 	color: #FFF;
@@ -141,4 +152,7 @@ outline: 0 none;}
 	.bgimage{
 		background-image:url(../img/REACH_CONTACT_IMG768.jpg);
 	}	
+	#rightCont{
+		left:10%;	
+	}
 }

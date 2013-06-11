@@ -44,9 +44,9 @@
   <body>
     <div class="bgimage"></div>
   	<div id="contentWrap" class="row-fluid">
-    	<div id="leftCont" class="span7">
+    	<div id="leftCont" class="span6">
             <div id="googleMapCont">
-            	<iframe width="380" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?hl=en&amp;q=287+Davenport+Road,+Unit+2&amp;ie=UTF8&amp;hq=&amp;hnear=287+Davenport+Rd+%232,+Toronto,+Ontario+M5R+2H8&amp;gl=ca&amp;t=m&amp;ll=43.671783,-79.397163&amp;spn=0.021729,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small></small>
+            	<iframe id="map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?hl=en&amp;q=287+Davenport+Road,+Unit+2&amp;ie=UTF8&amp;hq=&amp;hnear=287+Davenport+Rd+%232,+Toronto,+Ontario+M5R+2H8&amp;gl=ca&amp;t=m&amp;ll=43.671783,-79.397163&amp;spn=0.021729,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small></small>
             </div>
         	<span class="textLabel">
             	<br />Address
@@ -96,20 +96,22 @@
                 Reach PT is located on the South-East corner of Davenport and Bedford.           
             </span>-->
     	</div>
-   		<div id="rightCont" class="span5">
+   		<div id="rightCont" class="span6">
    			<form class="form-horizontal" action="validateForm.php" method="post" name="form1" id="form1" >
                 <input type="text"  name="name" id="name" placeholder="NAME" onfocus="this.placeholder = ''" onblur=					 					"this.placeholder = 'NAME'"><br /><br />
                 <input type="text" name="inputEmail" id="inputEmail" placeholder="EMAIL" onfocus="this.placeholder = ''" 			 					onblur="this.placeholder = 'EMAIL'"><br /><br />
                 <textarea rows="10" name="mailMessage" id="mailMessage" placeholder="MESSAGE" onfocus="this.placeholder = ''" onblur=		 					"this.placeholder = 'MESSAGE'" style="padding:8px; font-size:16px;"></textarea><br /><br />
                 <input type="submit" value="Submit" class="textLabel" id="form1Submit">
             </form>
+            
     	 <div id="response"></div>
          <div id="iconCont">
-             <br /><a href="http://www.facebook.com/reachpersonaltraining" target="_blank"><img class="iconImage" src="img/facebook_icon.png" alt="Reach Facebook Link"/></a>&nbsp;&nbsp;&nbsp;
-             <a href="http://twitter.com/ReachPT" target="_blank"><img class="iconImage" src="img/twitter_icon.png" alt="Twitter Facebook Link"/></a>
+             <a href="http://www.facebook.com/reachpersonaltraining" target="_blank"><img class="iconImage" id="fbIcon" src="img/facebook_icon.png" alt="Reach Facebook Link"/></a>&nbsp;&nbsp;&nbsp;
+             <a href="http://twitter.com/ReachPT" target="_blank"><img class="iconImage" id="twitterIcon" src="img/twitter_icon.png" alt="Twitter Facebook Link"/></a>
+              <br /><br /> <br /><br />
          </div>
          </div>
-         
+        
 	</div>
    
     <div id="logo"><a href="index.html"><img src="img/logo.png"/></a></div>
