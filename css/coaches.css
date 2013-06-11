@@ -160,7 +160,7 @@ body{
 }
 }
 
-@media(max-width : 900px) and (orientation:landscape){
+/*@media(max-width : 900px) and (orientation:landscape){
 	
 	
 }
@@ -177,8 +177,13 @@ body{
 @media(max-width : 500px) and (orientation:landscape){
 
 
+}*/
+@media(max-width : 500px) {
+	
+.contentBox p {
+	font-size:14px;
+
 }
-@media(max-width : 500px) and (orientation:portrait){
 #cont1{
 	top:45%;
 	left:5%;
@@ -220,8 +225,45 @@ body{
 
 }
 @media(max-width : 320px) and (min-width : 0px) and (orientation:landscape){
-	
+#cont1{
+	top:40%;
+	left:5%;
+	height:47%;
+	width:90%;
+	display:none;	
 }
-@media(max-width : 320px) and (min-width : 0px)and (orientation:portrait){
-	
+#cont2{
+	position:absolute;
+	top:40%;
+	left:5%;
+	height:47%;
+	width:90%;
+	display:none;	
 }
+#cont3{
+	position:absolute;
+	top:40%;
+	left:5%;
+	height:47%;
+	width:90%;
+	display:none;	
+}
+#cont4{
+	position:absolute;
+	top:40%;
+	left:5%;
+	height:47%;
+	width:90%;	
+	display:none;
+}#cont5{
+	position:absolute;
+	top:40%;
+	left:5%;
+	height:47%;
+	width:90%;
+	display:none;	
+}
+}
+/*@media(max-width : 320px) and (min-width : 0px)and (orientation:portrait){
+	
+}*/
