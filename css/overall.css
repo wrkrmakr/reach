@@ -36,9 +36,9 @@ a:focus {
 }
 #logo a img {
 	position: absolute;
-	top:9px;
+	top:5px;
 	left:50px;
-	width: 350px;
+	width: 400px;
 }
 
 a:visited,

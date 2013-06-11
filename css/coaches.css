@@ -13,7 +13,7 @@ body{
 #cont1{
 	position:fixed;
 	top:45%;
-	left:5%;
+	left:0%;
 	height:47%;
 	width:22%;
 	display:none;	
@@ -120,49 +120,74 @@ body{
 	width:38%;
 	height:100%;
 }
-@media(max-width : 1024px) {
-#cont1{
-
-	left:5%;
-	height:47%;
-	width:40%;
-	display:none;	
+@media(max-width : 1024px) and (orientation:landscape){
+	
 }
-#cont2{
-
-	left:20%;
-	height:47%;
-	width:40%;
-	display:none;	
+@media(max-width : 1024px) and (orientation:portrait){
+	
 }
-#cont3{
-
-	left:35%;
-	height:47%;
-	width:40%;
-	display:none;	
-}
-#cont4{
-
-	left:50%;
-	height:47%;
-	width:40%;	
-	display:none;
-}#cont5{
-
-	left:55%;
-	height:47%;
-	width:40%;
-	display:none;	
-}
-}
-
-/*@media(max-width : 900px) and (orientation:landscape){
+@media(max-width : 900px) and (orientation:landscape){
 	
 	
 }
 @media(max-width : 768px) and (orientation:landscape){
+	#cont1{
+	top:5%;
+	left:0%;
+	height:47%;
+	width:22%;
+	display:none;	
+}
+#cont2{
+<<<<<<< HEAD
 
+=======
+	position:absolute;
+	top:45%;
+>>>>>>> parent of 409b56c... Sync
+	left:20%;
+	height:47%;
+	width:22%;
+	display:none;	
+}
+#cont3{
+<<<<<<< HEAD
+
+	left:35%;
+=======
+	position:absolute;
+	top:45%;
+	left:40%;
+>>>>>>> parent of 409b56c... Sync
+	height:47%;
+	width:22%;
+	display:none;	
+}
+#cont4{
+<<<<<<< HEAD
+
+	left:50%;
+=======
+	position:absolute;
+	top:45%;
+	left:60%;
+>>>>>>> parent of 409b56c... Sync
+	height:47%;
+	width:22%;	
+	display:none;
+}#cont5{
+<<<<<<< HEAD
+
+	left:55%;
+=======
+	position:absolute;
+	top:45%;
+	left:75%;
+>>>>>>> parent of 409b56c... Sync
+	height:47%;
+	width:20%;
+	display:none;	
+}
 	
 }
 @media(max-width : 600px) and (orientation:landscape){
@@ -170,6 +195,7 @@ body{
 }
 @media(max-width : 600px) and (orientation:portrait){
 	
+<<<<<<< HEAD
 }*/
 @media(max-width : 500px) and (orientation:landscape){
 #cont1{
@@ -205,11 +231,16 @@ body{
 	height:47%;
 	width:90%;
 	display:none;	
+=======
+>>>>>>> parent of 409b56c... Sync
 }
+@media(max-width : 500px) and (orientation:landscape){
+	
 
 }
 @media(max-width : 500px) and (orientation:portrait){
 	
+<<<<<<< HEAD
 .contentBox p {
 	font-size:14px;
 
@@ -248,11 +279,13 @@ body{
 	width:90%;
 	display:none;	
 }	
+=======
+>>>>>>> parent of 409b56c... Sync
 
 }
 @media(max-width : 320px) and (min-width : 0px) and (orientation:landscape){
-
-}
-/*@media(max-width : 320px) and (min-width : 0px)and (orientation:portrait){
 	
-}*/
+}
+@media(max-width : 320px) and (min-width : 0px)and (orientation:portrait){
+	
+}
