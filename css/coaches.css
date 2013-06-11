@@ -33,7 +33,8 @@ body{
 	height:47%;
 	width:22%;
 	display:none;	
-}#cont4{
+}
+#cont4{
 	position:absolute;
 	top:45%;
 	left:60%;
@@ -117,4 +118,75 @@ body{
 	left:73%;
 	width:38%;
 	height:100%;
+}
+@media(max-width : 1024px) and (orientation:landscape){
+	
+}
+@media(max-width : 1024px) and (orientation:portrait){
+	
+}
+@media(max-width : 900px) and (orientation:landscape){
+	
+	
+}
+@media(max-width : 768px) and (orientation:landscape){
+	#cont1{
+	top:5%;
+	left:0%;
+	height:47%;
+	width:22%;
+	display:none;	
+}
+#cont2{
+	position:absolute;
+	top:45%;
+	left:20%;
+	height:47%;
+	width:22%;
+	display:none;	
+}
+#cont3{
+	position:absolute;
+	top:45%;
+	left:40%;
+	height:47%;
+	width:22%;
+	display:none;	
+}
+#cont4{
+	position:absolute;
+	top:45%;
+	left:60%;
+	height:47%;
+	width:22%;	
+	display:none;
+}#cont5{
+	position:absolute;
+	top:45%;
+	left:75%;
+	height:47%;
+	width:20%;
+	display:none;	
+}
+	
+}
+@media(max-width : 600px) and (orientation:landscape){
+	
+}
+@media(max-width : 600px) and (orientation:portrait){
+	
+}
+@media(max-width : 500px) and (orientation:landscape){
+	
+
+}
+@media(max-width : 500px) and (orientation:portrait){
+	
+
+}
+@media(max-width : 320px) and (min-width : 0px) and (orientation:landscape){
+	
+}
+@media(max-width : 320px) and (min-width : 0px)and (orientation:portrait){
+	
 }
