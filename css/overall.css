@@ -509,6 +509,7 @@ a:focus {
 	#logo a img {
 		width: 280px;
 		left:28px;
+		top:10px;
 	}
 	/*--------CONTENT CONTAINER---------*/
 	.contentContainer{
@@ -574,6 +575,10 @@ a:focus {
 		height:40%;
 		width:60%;
 	}	
+	
+	#logo a img {
+		top:15px;
+}
 	.contentBox h1{
 		font-size:19px;
 		font-weight: 550;
@@ -604,6 +609,7 @@ a:focus {
 	#logo a img {
 		width: 250px;
 		left: 25px;
+		top:15px;
 	}
 	/*--------CONTENT CONTAINER---------*/
 	.contentContainer{
