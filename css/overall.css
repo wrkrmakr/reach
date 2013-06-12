@@ -1,3 +1,4 @@
+/*--------DOCUMENT STYLING------*/
 html, body {
 	width: 100%;
 	height: 100%;
@@ -5,6 +6,7 @@ html, body {
 	padding: 0;
 	background-color: black;
 }
+/*--------ANCHOR COLORS------*/
 a,
 a:visited,
 a:hover,
@@ -13,7 +15,6 @@ a:focus {
 	text-decoration: none;
 	outline:none;
 }
-
 /*--------BG IMAGE---------*/
 .bgimage {
 	background-size:100% 100%;
@@ -22,7 +23,6 @@ a:focus {
 	z-index: 0;
 	position: fixed;
 }
-
 /*--------LOGO---------*/
 #logo {
 	z-index: 1000;
@@ -40,7 +40,6 @@ a:focus {
 	left:50px;
 	width: 400px;
 }
-
 a:visited,
 a:hover,
 a:focus {
@@ -53,29 +52,15 @@ a:focus {
 .orangeText{
 	color: #ee4823;
 }
-
 /*--------CONTENT BOX---------*/
 .contentContainer{
 	background-color: rgba(255,255,255,0.8);
 	border-bottom:8px solid #ee4823;
-
 	position:absolute;
 	top:47%;
 	left:54%;
 	height:30%;
 	width:34%;
-}
-.arrow {
-	position: fixed;
-	top: 47%;
-	cursor: pointer;
-	height: 90px;
-}
-#leftscroll {
-	left: 0px;
-}
-#rightscroll {
-	right: 0px;
 }
 .contentBox{
 	position: absolute;
@@ -114,7 +99,19 @@ a:focus {
 .contentLink:focus{
 	color: #ee4823;
 }
-
+/*--------ARROWS---------*/
+.arrow {
+	position: fixed;
+	top: 47%;
+	cursor: pointer;
+	height: 90px;
+}
+#leftscroll {
+	left: 0px;
+}
+#rightscroll {
+	right: 0px;
+}
 /*--------NAV BAR---------*/
 .navbar,
 .navbar-inverse,
@@ -124,7 +121,6 @@ a:focus {
 	right: 0px;
 	left: auto;
 }
-
 .navbar-inner{
 	height:60px;
 	background-color: rgba(0,0,0);
@@ -149,7 +145,6 @@ a:focus {
 .navbar-inverse .nav li.dropdown.open>.dropdown-toggle{
 	background-color: rgb(0,0,0);
 }
-
 /*--------- DROPDOWN----------*/
 .navbar .nav .dropdown ul{
 	font-family: "Gotham-Book", sans-serif;
@@ -160,7 +155,6 @@ a:focus {
 .navbar .nav>li>.dropdown-menu:after {
 	display: none;
 }
-
 .dropdown-menu{
 	top: 47px;
 	width: 280px;
@@ -171,7 +165,6 @@ a:focus {
 .dropdown-menu li{
 	margin:10px 0px;
 }
-
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
 .dropdown-submenu > li > a:hover,
@@ -184,7 +177,7 @@ a:focus {
 	border-left: 5px solid #ee4823;
 	padding-left: 15px;
 }
-
+/*--------MEDIA QUERY(1500px - LANDSCAPE)---------*/
 @media(max-width : 1500px) and (orientation:landscape){
 	.navbar .nav{
 		font-size: 20px;
@@ -196,16 +189,8 @@ a:focus {
 	.contentBox p{
 		font-size: 17px;
 	}
-	/*.navbar,
-	.navbar-inverse,
-	.navbar-fixed-top{
-		width: 58%;
-	}
-	#logo {
-		width: 42%;
-	}*/
 }
-
+/*--------MEDIA QUERY(1300px - LANDSCAPE)---------*/
 @media(max-width : 1300px) and (orientation:landscape){
 	.navbar .nav{
 		font-size: 17px;
@@ -214,16 +199,8 @@ a:focus {
 		font-size: 26px;
 		font-weight: 400;
 	}
-	/*.navbar,
-	.navbar-inverse,
-	.navbar-fixed-top{
-		width: 60%;
-	}
-	#logo {
-		width: 40%;
-	}*/
 }
-
+/*--------MEDIA QUERY(1200px - LANDSCAPE)---------*/
 @media(max-width : 1200px) and (orientation:landscape){
 	.contentBox h1{
 		font-size: 24px;
@@ -237,7 +214,7 @@ a:focus {
 		width:45%;
 	}
 }
-
+/*--------MEDIA QUERY(1024px - LANDSCAPE)---------*/
 @media(max-width : 1024px) and (orientation:landscape){
 	/*------LOGO---------*/
 	#logo {
@@ -258,6 +235,7 @@ a:focus {
 		font-size: 22px;
 		font-weight: 400;
 	}
+	/*--------NAVBAR---------*/
 	.navbar,
 	.navbar-inverse,
 	.navbar-fixed-top{
@@ -337,7 +315,6 @@ a:focus {
 		width: 280px;
 		border-radius: 0;
 	}
-
 	.navbar .btn-navbar {
 		display: block;
 		margin-top: 15px;
@@ -349,8 +326,8 @@ a:focus {
 	.nav-collapse.collapse {
 		overflow: hidden !important;
 	}
-
 }
+/*--------MEDIA QUERY(1024px - PORTRAIT)---------*/
 @media(max-width : 1024px) and (orientation:portrait){
 	/*-------LOGO-----*/
 	#logo {
@@ -367,6 +344,7 @@ a:focus {
 		height:38%;
 		width:40%;
 	}
+	/*--------NAVBAR---------*/
 	.navbar,
 	.navbar-inverse,
 	.navbar-fixed-top{
@@ -462,7 +440,9 @@ a:focus {
 		overflow: visible;
 	}
 }
+/*--------MEDIA QUERY(900px - LANDSCAPE)---------*/
 @media(max-width : 900px) and (orientation:landscape){
+	/*--------CONTENT CONTAINER---------*/
 	.contentBox h1{
 		font-size: 21px;
 		font-weight: 400;
@@ -473,15 +453,17 @@ a:focus {
 		height:40%;
 		width:55%;
 	}
+	/*--------SCROLL BUTTONS---------*/
 	#leftscroll{
 		height: 80px;		
 	}
 	#rightscroll{
 		height: 80px;		
 	}
-	
 }
+/*--------MEDIA QUERY(768px - LANDSCAPE)---------*/
 @media(max-width : 768px) and (orientation:landscape){
+	/*--------LOGO---------*/
 	#logo {
 		width: 70%;
 		background-color: transparent;
@@ -509,6 +491,7 @@ a:focus {
 	.contentBox ul li {
 		font-size:14px;
 	}
+	/*--------SCROLL BUTTONS---------*/
 	#leftscroll{
 		height: 75px;		
 	}
@@ -516,7 +499,9 @@ a:focus {
 		height: 75px;		
 	}
 }
+/*--------MEDIA QUERY(768px - PORTRAIT)---------*/
 @media(max-width : 768px) and (orientation:portrait){
+	/*--------LOGO)---------*/
 	#logo {
 		width: 70%;
 		background-color: transparent;
@@ -525,6 +510,7 @@ a:focus {
 		width: 280px;
 		left:28px;
 	}
+	/*--------CONTENT CONTAINER---------*/
 	.contentContainer{
 		top:44%;
 		left:30%;
@@ -550,7 +536,9 @@ a:focus {
 		height: 75px;		
 	}
 }
+/*--------MEDIA QUERY(600px - LANDSCAPE)---------*/
 @media(max-width : 600px) and (orientation:landscape){
+	/*-------CONTENT CONATINER---------*/
 	.contentContainer{
 		top:47%;
 		left:25%;
@@ -569,6 +557,7 @@ a:focus {
 	.contentBox ul li {
 		font-size:14px;
 	}
+	/*--------SCROLL BUTTONS---------*/
 	#leftscroll{
 		height: 70px;		
 	}
@@ -576,7 +565,9 @@ a:focus {
 		height: 70px;		
 	}
 }
+/*--------MEDIA QUERY(600px - PORTRAIT)---------*/
 @media(max-width : 600px) and (orientation:portrait){
+	/*--------CONTENT CONTAINER---------*/
 	.contentContainer{
 		top:42%;
 		left:30%;
@@ -595,6 +586,7 @@ a:focus {
 	.contentBox ul li {
 		font-size:13px;
 	}
+	/*--------SCROLL BUTTONS---------*/
 	#leftscroll{
 		height: 60px;		
 	}
@@ -602,7 +594,9 @@ a:focus {
 		height: 60px;		
 	}
 }
+/*--------MEDIA QUERY(500px - LANDSCAPE)---------*/
 @media(max-width : 500px) and (orientation:landscape){
+	/*--------LOGO---------*/
 	#logo {
 		width: 65%;
 		background-color: transparent;
@@ -611,6 +605,7 @@ a:focus {
 		width: 250px;
 		left: 25px;
 	}
+	/*--------CONTENT CONTAINER---------*/
 	.contentContainer{
 		top:40%;
 		left:10%;
@@ -629,12 +624,14 @@ a:focus {
 	.contentBox ul li {
 		font-size:12px;
 	}	
+	/*--------SCROLL BUTTONS---------*/
 	#leftscroll{
 		height: 50px;		
 	}
 	#rightscroll{
 		height: 50px;		
 	}
+	/*--------NAVBAR---------*/
 	.nav-collapse .dropdown-menu {
 		position: absolute;
 		top: 0px;
@@ -646,9 +643,10 @@ a:focus {
 	.navbar .nav .dropdown ul{
 		font-size:15px;
 	}
-
 }
+/*--------MEDIA QUERY(500px - PORTRAIT)---------*/
 @media(max-width : 500px) and (orientation:portrait){
+	/*--------LOGO---------*/
 	#logo {
 		width: 65%;
 		background-color: transparent;
@@ -657,6 +655,7 @@ a:focus {
 		width: 225px;
 		left: 20px;
 	}
+	/*--------CONTENT CONTAINER---------*/
 	.contentContainer{
 		top:44%;
 		left:15%;
@@ -675,13 +674,14 @@ a:focus {
 	.contentBox ul li {
 		font-size:13px;
 	}
+	/*--------SCROLL BUTTONS---------*/
 	#leftscroll{
 		height: 50px;		
 	}
 	#rightscroll{
 		height: 50px;		
 	}
-	
+	/*--------NAVBAR---------*/
 	.nav-collapse .dropdown-menu {
 		position: static;
 		top: auto;
@@ -696,15 +696,17 @@ a:focus {
 	.nav{
 		z-index: 900;
 	}
+	/*--------DROPDOWN---------*/
 	#serviceDropdown {
 		z-index: 950;
 	}
 	#treatmentDropdown{
 		z-index: 949;
 	}
-
 }
+/*--------MEDIA QUERY(0px-320px - LANDSCAPE)---------*/
 @media(max-width : 320px) and (min-width : 0px) and (orientation:landscape){
+	/*--------LOGO---------*/
 	#logo {
 		top:10px;
 		left: 20px;
@@ -715,6 +717,7 @@ a:focus {
 		width: 200px;
 		left: 20px;
 	}
+	/*--------CONTENT CONTAINER---------*/
 	.contentContainer{
 		top:40%;
 		left:15%;
@@ -733,6 +736,7 @@ a:focus {
 	.contentBox ul li {
 		font-size:10px;
 	}
+	/*--------SCROLL BUTTONS---------*/
 	#leftscroll{
 		height: 40px;		
 	}
@@ -740,7 +744,9 @@ a:focus {
 		height: 40px;		
 	}
 }
+/*--------MEDIA QUERY(0px-320px - PORTRAIT)---------*/
 @media(max-width : 320px) and (min-width : 0px)and (orientation:portrait){
+	/*--------LOGO---------*/
 	#logo {
 		top:10px;
 		left: 20px;
@@ -751,6 +757,7 @@ a:focus {
 		width: 200px;
 		left: 20px;
 	}
+	/*--------CONTENT CONTAINER---------*/
 	.contentContainer{
 		top:30%;
 		left:10%;
@@ -769,6 +776,7 @@ a:focus {
 	.contentBox ul li {
 		font-size:11px;
 	}
+	/*--------SCROLL BUTTONS---------*/
 	#leftscroll{
 		height: 40px;		
 	}
