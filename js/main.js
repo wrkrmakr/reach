@@ -1,7 +1,6 @@
 $(document).ready(function(){
 	$(".contentBox").mCustomScrollbar({theme:"dark"});
-	$(window).load(function(){
-		
-			
+	$(".bgimage, #logo, #homeCarousel").click(function(){
+		$(".nav-collapse").collapse('hide');
 	});
 });
