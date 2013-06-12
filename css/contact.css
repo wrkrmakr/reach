@@ -156,6 +156,9 @@ outline: 0 none;}
 @media(max-width : 1024px) and (min-width : 768px) and (orientation:landscape){
 	#leftCont{
 		top:22%;	
+	}
+	#googleMapCont{
+		width: 80%;
 	}	
 }
 @media(max-width : 768px){
