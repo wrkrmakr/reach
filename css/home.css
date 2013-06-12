@@ -5,6 +5,10 @@
 	z-index: 0;
 	position: fixed
 }
+.bgimage {
+	display: none;
+	background-image:url(../img/About/home-Image-1.jpg);
+}
 /*.contentContainer{
 	position:absolute;
 	top:47%;
@@ -18,4 +22,32 @@
 {
 	width:100% !important;
 	height:100% !important;
+}
+
+@media(max-width : 960px) and (orientation:landscape){
+	.bgimage {
+		display: block;
+	}
+
+	#homeCarousel,
+	.homeBG,
+	.carousel-inner,
+	.item img,
+	.item {
+		display: none;
+	}
+}
+@media(max-width : 640px) and (orientation:portrait){
+	.bgimage {
+		display: block;
+		background-image:url(../img/About/home-Image-1-768.jpg);
+	}
+
+	#homeCarousel,
+	.homeBG,
+	.carousel-inner,
+	.item img,
+	.item {
+		display: none;
+	}
 }

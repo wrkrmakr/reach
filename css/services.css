@@ -10,7 +10,7 @@
 #bgimage4 {
 	background-image:url(../img/Services/Bio-Modulation.jpg);
 }
-@media(max-width : 768px) and (orientation:portrait){
+@media (orientation:portrait){
 	#bgimage1 {
 		background-image:url(../img/Services/1-on-1_768.jpg);
 	}
