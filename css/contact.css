@@ -154,7 +154,7 @@ outline: 0 none;}
 		background-image:url(../img/REACH_CONTACT_IMG768.jpg);
 	}	
 }
-@media(max-width : 1024px) and (orientation:landscape){
+@media(max-width : 1024px) and (min-width : 768px) and (orientation:landscape){
 	#leftCont{
 		top:25%;	
 	}	
@@ -163,5 +163,8 @@ outline: 0 none;}
 	#rightCont{
 		padding-top:10px;
 		left:9%;	
+	}
+	#leftCont{
+		top:%;	
 	}	
 }
