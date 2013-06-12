@@ -144,19 +144,22 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#ff}
 input:-webkit-input-placeholder,textarea:-webkit-input-placeholder{color:#fff}
 
 textarea:focus, input[type="text"]:focus {   
-	border-color:#FF2500;
-	box-shadow: 0 1px 1px rgba(255, 127, 0,0.8) inset, 0 0 8px rgba(255, 127, 0,1);
-	outline: 0 none;
-}
+border-color:#FF2500;
+box-shadow: 0 1px 1px rgba(255, 127, 0,0.8) inset, 0 0 8px rgba(255, 127, 0,1);
+outline: 0 none;}
 
-@media(max-width : 768px) and (orientation:portrait){
-	.bgimage{
-		background-image:url(../img/REACH_CONTACT_IMG768.jpg);
-	}	
-}
+
 @media(max-width : 1024px) and (min-width : 768px) and (orientation:landscape){
 	#leftCont{
 		top:22%;	
+	}
+	#googleMapCont{
+		width: 80%;
+	}	
+}
+@media(max-width : 768px) and (orientation:portrait){
+	.bgimage{
+		background-image:url(../img/REACH_CONTACT_IMG768.jpg);
 	}	
 }
 @media(max-width : 768px){
