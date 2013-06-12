@@ -26,7 +26,7 @@
 	/*background-image:url(../img/map.png);*/
 	background-size: 100% 100%;
 	background-color:#999;
-	width: 70%;
+	width: 60%;
 	height:240px;
 }
 #map{
@@ -103,6 +103,9 @@ textarea{
 	left:250px;	
 	background:none;
 	border:none;
+	font-family: "Helvetica-Condensed", sans-serif;
+	font-size:20px;
+	letter-spacing:1px;
 }
 #response{
 	color: rgb(255,255,255);
@@ -158,6 +161,7 @@ outline: 0 none;}
 }
 @media(max-width : 768px){
 	#rightCont{
-		left:11%;	
+		padding-top:10px;
+		left:9%;	
 	}	
 }
