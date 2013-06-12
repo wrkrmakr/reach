@@ -13,6 +13,7 @@ $(document).ready(function(){
 			currentTreatment = $(this).attr('id');
 			changeContent();
 		}
+		$(".nav-collapse").collapse('hide');
 	});
 
 	$("#leftscroll").click(function(){
@@ -37,18 +38,12 @@ $(document).ready(function(){
 
 	$(document).keydown(function(e){
 	    if (e.keyCode == 37) { 
-	        if (currentTreatment > 1) {
-				currentTreatment--;
-				changeContent();
-			}
+	        $("#leftscroll").click();
 	    }
 	  	else if (e.keyCode == 39) {
-	  		if (currentTreatment < 2) {
-				currentTreatment++;
-				changeContent();
-			}
+	  		$("#rightscroll").click();
 	  	}
-	  	return false;
+	  	return e;
 	});
 
 	function getUrlVars() {

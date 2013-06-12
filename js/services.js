@@ -13,6 +13,7 @@ $(document).ready(function(){
 			currentService = $(this).attr('id');
 			changeContent();
 		}
+		$(".nav-collapse").collapse('hide');
 	});
 
 	$("#leftscroll").click(function(){
@@ -38,16 +39,10 @@ $(document).ready(function(){
 
 	$(document).keydown(function(e){
 	    if (e.keyCode == 37) { 
-	        if (currentService > 1) {
-				currentService--;
-				changeContent();
-			}
+	        $("#leftscroll").click();
 	    }
 	  	else if (e.keyCode == 39) {
-	  		if (currentService < 4) {
-				currentService++;
-				changeContent();
-			}
+	  		$("#rightscroll").click();
 	  	}
 	  	return e;
 	});
