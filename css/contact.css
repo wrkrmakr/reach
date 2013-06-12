@@ -68,7 +68,6 @@
 #ttcInfo{
 	display:inline-table;
 	width: 380px;	
-	
 }
 
 input[type="text"]{
@@ -155,14 +154,21 @@ textarea:focus, input[type="text"]:focus {
 		background-image:url(../img/REACH_CONTACT_IMG768.jpg);
 	}	
 }
-@media(max-width : 1024px) and (orientation:landscape){
+@media(max-width : 1024px) and (min-width : 768px) and (orientation:landscape){
 	#leftCont{
-		top:25%;	
+		top:22%;	
 	}	
 }
 @media(max-width : 768px){
 	#rightCont{
 		padding-top:10px;
+		padding-right:3px;
 		left:9%;	
-	}	
+	}
+	#leftCont{
+		top:14%;	
+	}
+	#googleMapCont{
+		width: 80%;
+	}			
 }
