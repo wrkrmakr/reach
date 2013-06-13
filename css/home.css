@@ -35,7 +35,7 @@
 		display: none;
 	}
 }
-/*------MEDIA QUERY: 649(PORTRAIT)------*/
+/*------MEDIA QUERY: 640(PORTRAIT)------*/
 @media(max-width : 640px) and (orientation:portrait){
 	/*------BACKGROUND IMAGE------*/
 	.bgimage {

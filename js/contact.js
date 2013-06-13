@@ -1,7 +1,12 @@
-// JavaScript Document
+/*------AUTHOR: ONMEDIA.CO------*/
+
+/*------Ready fucntion for document------*/
 $(document).ready(function(){
+	/*------Local Variables for ready()------*/	
 	var map;
 	var myLatlng = new google.maps.LatLng(43.674463,-79.397993);
+	
+	/*------Initialising Google Maps API------*/	
 	function initialize() {
 		var mapOptions = {
 			zoom: 14,
@@ -15,15 +20,12 @@ $(document).ready(function(){
 			optimized:true
 		});
 	}
-
-
-
 	google.maps.event.addDomListener(window, 'load', initialize);
-
-
+	/*------Validate form using AJAX------*/	
 	$('#form1').validate({
+		/*------Define rules for form fields------*/
 		rules: {
-               "name":{
+				"name":{
                    required: true,
 				   minlength:2
                },
@@ -35,6 +37,7 @@ $(document).ready(function(){
                    required: true
 				}   
        },
+	   /*------Custom messages for form fields------*/
        messages: {
             "name": {
                 required: "<br />&nbsp;&nbsp;&nbsp;Please enter your full name",
@@ -48,6 +51,7 @@ $(document).ready(function(){
                 required: "<br /><br />&nbsp;&nbsp;&nbsp;Please send us a note"
             }
        },
+	   /*------Submit Handler for form data------*/
 	    submitHandler: function(form) {
       		$('#form1Submit').attr('value','Submitting...');
 			$(form).ajaxSubmit({
@@ -62,56 +66,5 @@ $(document).ready(function(){
 	    	});
 			return false;
 		}	
-	   
-		
 	});
-	
-	/*$('#form1Submit').hover(function(){
-		$(this).css('cursor','pointer');	
-	},function(){
-		$(this).css('cursor','default');			
-	});*/
-
-	/*$('#name').blur(function(){
-		var name=$("#name").val();
-		if ((name==null || name=="")){
-			$('#nameResponse').html('*Name is required');
-		}
-		else if(name.length<2){
-			$('#nameResponse').html('*Atleast two characters are required');				  
-		}	
-		else{
-			$('#nameResponse').html('');				  
-		}			
-	});
-	$('#inputEmail').blur(function(){
-		var email=$("#inputEmail").val();
-		var emailPattern=/^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/; // email pattern
-		if ((email==null || email=="")){
-			$('#emailResponse').html('*E-mail is required');
-		}
-		else if(!(emailPattern.test(email))){
-			$('#emailResponse').html('*E-mail address not valid'); 
-		}
-		else{
-			$('#emailResponse').html('');				
-		}
-		  				
-	});
-	$('#message').blur(function(){
-		var message=$("#message").val();	
-		if ((message==null || message=="")){
-			$('#messageResponse').html('*Message is required');
-		}			
-		else if(message.length<2){
-			$('#messageResponse').html('*Atleast two characters are required');				  
-		}
-		else{
-			$('#messageResponse').html('');				
-		}
-		  				
-	});
-	/*$('#name').focus(function(){
-		$('#nameResponse').html('');
-	});*/		
 });
