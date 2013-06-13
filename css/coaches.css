@@ -1,11 +1,13 @@
+/*-------BODY---------*/
 body{
 	background-image:url(../img/coaches_bg.jpg);
 	background-size:cover;
-	
 }
+/*-------BACKGROUND IMAGE---------*/
 #bgimage {
 	background-image:url(../img/coaches_bg.jpg);
 }
+/*-------CONTENT CONTAINER---------*/
 .contentContainer{
 	background-color: rgba(255,255,255,0.8);
 	border-bottom:8px solid #ee4823;
@@ -49,11 +51,6 @@ body{
 	width:20%;
 	display:none;	
 }
-.mCSB_container{
-	padding-right:0px;
-	margin-right:0px;
-}
-
 .contentBox h1 {
 	font-size:32px;
 	padding:0px 0px 15px;
@@ -68,21 +65,12 @@ body{
 .contentBox ul li {
 	padding-right:10px;
 }
-
-#coach ul{
-/*	position:absolute;*/
-/*	top:30%;*/
-/*	width:100%;*/
+/*-------mScrollBar---------*/
+.mCSB_container{
+	padding-right:0px;
+	margin-right:0px;
 }
-
-/*#coach {
-	position:absolute;
-	top:101px;
-	left:0%;
-	width::100%;
-	height:100%;
-	list-style-type:none;
-}*/
+/*-------Coaches--------*/
 #craig{
 	position:fixed;
 	top:15%;
@@ -120,115 +108,95 @@ body{
 	width:38%;
 	height:100%;
 }
-
+/*-------MEDIA QUERY: 1024(LANDSCAPE)---------*/
 @media(max-width : 1024px) and (orientation:landscape){
-#cont1{
-	position:fixed;
-	top:45%;
-	left:5%;
-	height:47%;
-	width:30%;
-	display:none;	
+	/*-------CONTAINER BOXES---------*/
+	#cont1{
+		position:fixed;
+		top:45%;
+		left:5%;
+		height:47%;
+		width:30%;
+		display:none;	
+	}
+	#cont2{
+		position:fixed;
+		top:45%;
+		left:20%;
+		height:47%;
+		width:30%;
+		display:none;	
+	}
+	#cont3{
+		position:fixed;
+		top:45%;
+		left:40%;
+		height:47%;
+		width:30%;
+		display:none;	
+	}
+	#cont4{
+		position:fixed;
+		top:45%;
+		left:52%;
+		height:47%;
+		width:30%;	
+		display:none;
+	}
+	#cont5{
+		position:fixed;
+		top:45%;
+		left:66%;
+		height:47%;
+		width:30%;
+		display:none;	
+	}
 }
-#cont2{
-	position:fixed;
-	top:45%;
-	left:20%;
-	height:47%;
-	width:30%;
-	display:none;	
-}
-#cont3{
-	position:fixed;
-	top:45%;
-	left:40%;
-	height:47%;
-	width:30%;
-	display:none;	
-}
-#cont4{
-	position:fixed;
-	top:45%;
-	left:52%;
-	height:47%;
-	width:30%;	
-	display:none;
-}#cont5{
-	position:fixed;
-	top:45%;
-	left:66%;
-	height:47%;
-	width:30%;
-	display:none;	
-}
-}
-
+/*-------MEDIA QUERY: 1024(PORTRAIT)---------*/
 @media(max-width : 1024px) and (orientation:portrait){
-#cont1, #cont2, #cont3, #cont4, #cont5{
-	position:absolute;	
-	top:45%;
-	left:5%;
-	height:47%;
-	width:90%;
-	display:none;	
+	/*-------CONTENT BOXES---------*/
+	#cont1, #cont2, #cont3, #cont4, #cont5{
+		position:absolute;	
+		top:45%;
+		left:5%;
+		height:47%;
+		width:90%;
+		display:none;	
+	}
 }
-}
-
-@media(max-width : 900px) and (orientation:landscape){
-	
-	
-}
-
+/*-------MEDIA QUERY: 768(LANDSCAPE)---------*/
 @media(max-width : 768px) and (orientation:landscape){
-	
-#cont1, #cont2, #cont3, #cont4, #cont5 {
-	top:45%;
-	left:5%;
-	height:47%;
-	width:90%;
-	display:none;	
+	/*-------CONTENT BOXES---------*/
+	#cont1, #cont2, #cont3, #cont4, #cont5 {
+		top:45%;
+		left:5%;
+		height:47%;
+		width:90%;
+		display:none;	
+	}
 }
-	
-}
-@media(max-width : 600px) and (orientation:landscape){
-	
-}
-@media(max-width : 600px) and (orientation:portrait){
-	
-
-}
+/*-------MEDIA QUERY: 500(LANDSCAPE)---------*/
 @media(max-width : 500px) and (orientation:landscape){
-#cont1, #cont2, #cont3, #cont4, #cont5 {
-	top:40%;
-	left:5%;
-	height:47%;
-	width:90%;
-	display:none;	
+	/*-------CONTENT BOXES---------*/
+	#cont1, #cont2, #cont3, #cont4, #cont5 {
+		top:40%;
+		left:5%;
+		height:47%;
+		width:90%;
+		display:none;	
+	}
 }
-
-@media(max-width : 500px) and (orientation:landscape){
-	
-
-}
+/*-------MEDIA QUERY: 500(PORTRAIT)---------*/
 @media(max-width : 500px) and (orientation:portrait){
-	
-
-.contentBox p {
-	font-size:14px;
-}
-
-#cont1, #cont2, #cont3, #cont4, #cont5 {
-	top:45%;
-	left:5%;
-	height:47%;
-	width:90%;
-	display:none;	
-}	
-
-}
-@media(max-width : 320px) and (min-width : 0px) and (orientation:landscape){
-	
-}
-@media(max-width : 320px) and (min-width : 0px)and (orientation:portrait){
-	
+	.contentBox p {
+		font-size:14px;
+	}
+	/*-------CONTENT BOXES---------*/
+	#cont1, #cont2, #cont3, #cont4, #cont5 {
+		top:45%;
+		left:5%;
+		height:47%;
+		width:90%;
+		display:none;	
+	}
 }
