@@ -14,6 +14,7 @@ $(document).ready(function(){
 			changeContent();
 		}
 		$(".nav-collapse").collapse('hide');
+		$(".dropdown-toggle").dropdown('toggle');
 	});
 
 	$("#leftscroll").click(function(){
