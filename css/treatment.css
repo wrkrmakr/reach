@@ -1,40 +1,19 @@
+/*------AUTHOR: ONMEDIA.CO------*/
 
+/*------BACKGROUND IMAGES------*/
 #bgimage1 {
 	background-image:url(../img/Treatment/fst.jpg);
 }
 #bgimage2 {
 	background-image:url(../img/Treatment/fis.jpg);
 }
-
-/*#bgimage3 {
-	background-image:url(../img/Treatment/treatments.jpg);
-}*/
-
-/*.contentContainer{
-	position:absolute;
-	top:47%;
-	left:54%;
-	height:30%;
-	width:34%;
-}
-.arrow {
-	position: fixed;
-	top: 47%;
-	cursor: pointer;
-	height: 90px;
-}
-#leftscroll {
-	left: 0px;
-}
-#rightscroll {
-	right: 0px;
-}*/
+/*------MEDIA QUERY: 768(PORTRAIT)------*/
 @media(max-width : 768px) and (orientation:portrait){
+	/*------BACKGROUND IMAGES------*/
 	#bgimage1 {
 		background-image:url(../img/Treatment/fst_768.jpg);
 	}
 	#bgimage2 {
 		background-image:url(../img/Treatment/fis_768.jpg);
-	}
-	
+	}	
 }

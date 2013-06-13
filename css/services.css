@@ -1,3 +1,6 @@
+/*------AUTHOR: ONMEDIA.CO------*/
+
+/*------BACKGROUND IMAGES------*/
 #bgimage1 {
 	background-image:url(../img/Services/1-on-1.jpg);
 }
@@ -10,7 +13,9 @@
 #bgimage4 {
 	background-image:url(../img/Services/bio.jpg);
 }
+/*------MEDIA QUERY: ALL(PORTRAIT)------*/
 @media (orientation:portrait){
+	/*------BACKGROUND IMAGES------*/
 	#bgimage1 {
 		background-image:url(../img/Services/1-on-1_768.jpg);
 	}
@@ -22,26 +27,5 @@
 	}
 	#bgimage4 {
 		background-image:url(../img/Services/bio_768.jpg);
-	}	
-	
+	}		
 }
-
-/*.contentContainer{
-	position:absolute;
-	top:47%;
-	left:54%;
-	height:30%;
-	width:34%;
-}
-.arrow {
-	position: fixed;
-	top: 47%;
-	cursor: pointer;
-	height: 90px;
-}
-#leftscroll {
-	left: 0px;
-}
-#rightscroll {
-	right: 0px;
-}*/
