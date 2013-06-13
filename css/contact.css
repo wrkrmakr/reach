@@ -1,5 +1,5 @@
 .bgimage{
-	background-image:url(../img/REACH_CONTACT_IMG.jpg);
+	background-image:url(../img/contact.jpg);
 	/*background-size: cover;*/
 }
 #contentWrap{
@@ -158,7 +158,7 @@ outline: 0 none;}
 }
 @media(max-width : 768px) and (orientation:portrait){
 	.bgimage{
-		background-image:url(../img/REACH_CONTACT_IMG768.jpg);
+		background-image:url(../img/contact_768.jpg);
 	}	
 }
 @media(max-width : 768px){
