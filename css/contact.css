@@ -174,3 +174,23 @@ outline: 0 none;}
 		width: 90%;
 	}			
 }
+@media(max-width : 320px) and (orientation:portrait){
+	input[type="text"]{
+		width: 230px;
+	}
+	textarea{
+		width: 230px;
+	}
+	#form1Submit{
+		left:180px;	
+	}
+	#iconCont{
+		width:280px;
+	}
+	#fbIcon{
+		left: 170px;	
+	}
+	#twitterIcon{
+		left: 180px;	
+	}
+}
