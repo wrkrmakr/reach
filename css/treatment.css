@@ -1,9 +1,9 @@
 
 #bgimage1 {
-	background-image:url(../img/Treatment/Fascial-Stretch-Therapy.jpg);
+	background-image:url(../img/Treatment/fst.jpg);
 }
 #bgimage2 {
-	background-image:url(../img/Treatment/Far-Infrared-Sauna.jpg);
+	background-image:url(../img/Treatment/fis.jpg);
 }
 
 /*#bgimage3 {
@@ -31,10 +31,10 @@
 }*/
 @media(max-width : 768px) and (orientation:portrait){
 	#bgimage1 {
-		background-image:url(../img/Treatment/Fascial-Stretch-Therapy768.jpg);
+		background-image:url(../img/Treatment/fst_768.jpg);
 	}
 	#bgimage2 {
-		background-image:url(../img/Treatment/Far-Infrared-Sauna768.jpg);
+		background-image:url(../img/Treatment/fis_768.jpg);
 	}
 	
 }
