@@ -8,11 +8,11 @@ $(document).ready(function(){
 			center: new google.maps.LatLng(43.671783,-79.397163),
 			mapTypeId: google.maps.MapTypeId.ROADMAP
 		};
-		map = new google.maps.Map(document.getElementById('googleMapCont'), mapOptions);
+		map = new google.maps.Map(document.getElementById('map'), mapOptions);
 		var marker = new google.maps.Marker({
 			position: myLatlng,
 			map: map,
-			title:"Hello World!"
+			optimized:true
 		});
 	}
 
