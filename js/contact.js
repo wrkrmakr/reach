@@ -1,21 +1,26 @@
 // JavaScript Document
 $(document).ready(function(){
-	/*$('#form1').submit(function(){
-		// submit the form
-		$(this).ajaxSubmit({
-			//target: "#response",
-			success: function(responseText, statusText, xhr, $form) {
-				$('#form1').slideUp("fast");
-				$("#response").append('<div id="tickCont"></div><br />');
-				$("#response").append('<div style="position:relative; font-size:18px;">'+responseText+'</div>');
-				$("#response").hide().slideDown("fast");
-		    }
-	    });
-		return false;
-	
-		// return false to prevent normal browser submit and page navigation 
-					
-	});*/
+	var map;
+	var myLatlng = new google.maps.LatLng(43.674463,-79.397993);
+	function initialize() {
+		var mapOptions = {
+			zoom: 14,
+			center: new google.maps.LatLng(43.671783,-79.397163),
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		map = new google.maps.Map(document.getElementById('googleMapCont'), mapOptions);
+		var marker = new google.maps.Marker({
+			position: myLatlng,
+			map: map,
+			title:"Hello World!"
+		});
+	}
+
+
+
+	google.maps.event.addDomListener(window, 'load', initialize);
+
+
 	$('#form1').validate({
 		rules: {
                "name":{
