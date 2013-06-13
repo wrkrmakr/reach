@@ -1,3 +1,6 @@
+/*------AUTHOR: ONMEDIA.CO------*/
+
+/*------HOME CAROUSEL------*/
 #homeCarousel,
 .homeBG {
 	width:100%;
@@ -5,17 +8,6 @@
 	z-index: 0;
 	position: fixed
 }
-.bgimage {
-	display: none;
-	background-image:url(../img/About/home-Image-1.jpg);
-}
-/*.contentContainer{
-	position:absolute;
-	top:47%;
-	left:54%;
-	height:30%;
-	width:34%;
-}*/
 .carousel-inner,
 .item img,
 .item
@@ -23,12 +15,18 @@
 	width:100% !important;
 	height:100% !important;
 }
-
+/*------BACKGROUND IMAGE------*/
+.bgimage {
+	display: none;
+	background-image:url(../img/About/home-Image-1.jpg);
+}
+/*------MEDIA QUERY: 960(LANDSCAPE)------*/
 @media(max-width : 960px) and (orientation:landscape){
+	/*------BACKGROUND IMAGE------*/
 	.bgimage {
 		display: block;
 	}
-
+	/*------HOME CAROUSEL------*/
 	#homeCarousel,
 	.homeBG,
 	.carousel-inner,
@@ -37,12 +35,14 @@
 		display: none;
 	}
 }
+/*------MEDIA QUERY: 649(PORTRAIT)------*/
 @media(max-width : 640px) and (orientation:portrait){
+	/*------BACKGROUND IMAGE------*/
 	.bgimage {
 		display: block;
 		background-image:url(../img/About/home-Image-1-768.jpg);
 	}
-
+	/*------HOME CAROUSEL------*/
 	#homeCarousel,
 	.homeBG,
 	.carousel-inner,
