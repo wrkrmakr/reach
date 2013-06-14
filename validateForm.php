@@ -1,3 +1,5 @@
+<!--AUTHOR: ONMEDIA.CO-->
+
 <?php
 	//Clean the values
 	foreach($_POST as $key => $value) {
