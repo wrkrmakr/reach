@@ -13,7 +13,7 @@
 	$messageFromForm = $_POST["mailMessage"];                          		//Actual Message
 	
 	//Format the email
-	$to = "nijjar.login@gmail.com";
+	$to = "info@reachpersonaltraining.com";
 	$subject = "Mail From: ".$name." ( ".$email." )";          				//Subject Line
 	$from = $email ;										   				//From flag in header
 	$headers = "From: " . strip_tags($email) . "\r\n";		   				//Reply to flag in header
