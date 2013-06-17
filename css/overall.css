@@ -32,9 +32,10 @@ a:focus {
 	top: 0px;
 	left: 0px;
 	color: white;
-	width: 51%;
 	height: 60px;
-	background-color: rgba(0,0,0,0.9);
+/*
+	width: 51%;
+	background-color: rgba(0,0,0,0.9);*/
 }
 #logo a img {
 	position: absolute;
@@ -119,7 +120,7 @@ a:focus {
 .navbar-inverse,
 .navbar-fixed-top{
 	z-index: 999;
-	width: 49%;
+	width: 100%;
 	right: 0px;
 	left: auto;
 }
@@ -136,6 +137,7 @@ a:focus {
 	padding-right: 0px;
 }
 .navbar .nav{
+	margin-left: 52%;
 	font-size: 25px;
 	margin-top: 10px;
 }
