@@ -1,7 +1,11 @@
+/*------AUTHOR: ONMEDIA.CO------*/
+
+/*------Ready fucntion for document------*/
 $(document).ready(function(){
+	/*------Load fucntion for window------*/
 	$(window).load(function(){
 		$('#homeCarousel').carousel({
-			interval: 3000
+			interval: 5000
     	});
 	});
 	// Find matches
