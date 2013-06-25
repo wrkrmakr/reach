@@ -20,11 +20,16 @@ h2 {
 	font-family: "Helvetica-Condensed", sans-serif;
 	text-align:center;
 	color:white;
-	font-size:26px;
+	font-size:30px;
 	margin:20px auto;
+	letter-spacing:2px;
 }
 
 #campText {
 	font-family: "Gotham-Book", sans-serif;
 	margin:40px 30px;
+}
+
+#campText tr {
+	font-size:12px;
 }
