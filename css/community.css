@@ -1,1 +1,30 @@
 /*------AUTHOR: ONMEDIA.CO------*/
+#camps {
+	position:absolute;
+	color:white;
+	margin:120px 0 200px;
+}
+
+.images {
+	display:block;
+	width:100%;
+}
+
+.images img{
+	width:33.333%;
+	height:150px;
+}
+
+
+h2 {
+	font-family: "Helvetica-Condensed", sans-serif;
+	text-align:center;
+	color:white;
+	font-size:26px;
+	margin:20px auto;
+}
+
+#campText {
+	font-family: "Gotham-Book", sans-serif;
+	margin:40px 30px;
+}
