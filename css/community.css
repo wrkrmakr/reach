@@ -5,16 +5,9 @@
 	margin:120px 0 200px;
 }
 
-.images {
-	display:block;
+#banner img{
 	width:100%;
 }
-
-.images img{
-	width:33.333%;
-	height:150px;
-}
-
 
 h2 {
 	font-family: "Helvetica-Condensed", sans-serif;
@@ -34,4 +27,24 @@ h2 {
 	font-size:12px;
 	line-height:14px;
 	vertical-align:top;
+}
+
+
+
+@media(max-width : 1024px){
+#camps {
+	margin:100px 0 200px;
+}
+h2 {
+	font-size:24px;
+}
+}
+
+@media(max-width : 640px){
+#camps {
+	margin:80px 0 200px;
+}
+h2 {
+	font-size:20px;
+}
 }
