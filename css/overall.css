@@ -9,6 +9,7 @@ html, body {
 	background-color: black;
 }
 /*--------ANCHOR COLORS------*/
+
 a,
 a:visited,
 a:hover,
@@ -17,6 +18,9 @@ a:focus {
 	text-decoration: none;
 	outline:none;
 }
+/*a:hover {
+	color:#fff;
+}*/
 /*--------BG IMAGE---------*/
 .bgimage {
 	background-size:100% 100%;
@@ -183,10 +187,10 @@ a:focus {
 	border-left: 5px solid #ee4823;
 	padding-left: 15px;
 }
-.navbar-inverse .nav>li>a:focus,
+/*.navbar-inverse .nav>li>a:focus,
 .navbar-inverse .nav>li>a:hover {
   color: #999;
-}
+}*/
 /*--------MEDIA QUERY(1500px - LANDSCAPE)---------*/
 @media(max-width : 1500px) and (orientation:landscape){
 	.navbar .nav{
