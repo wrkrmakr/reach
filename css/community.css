@@ -4,11 +4,11 @@ html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	background-color:#757575;
+	background-color:#f4f4f4;
 }
 #camps {
 	position:absolute;
-	color:white;
+	color:#333;
 	margin:120px 0 200px;
 }
 
@@ -19,7 +19,7 @@ html, body {
 h2 {
 	font-family: "Helvetica-Condensed", sans-serif;
 	text-align:center;
-	color:white;
+	color:#ee4823;
 	font-size:30px;
 	margin:20px auto;
 	letter-spacing:2px;
