@@ -20,7 +20,8 @@ body{
 	left:5%;
 	height:47%;
 	width:22%;
-	display:none;	
+	display:none;
+	z-index:101;	
 }
 #cont2{
 	position:fixed;
@@ -28,30 +29,47 @@ body{
 	left:20%;
 	height:47%;
 	width:22%;
-	display:none;	
+	display:none;
+	z-index:100;	
 }
 #cont3{
 	position:fixed;
 	top:45%;
-	left:40%;
+	left:35%;
 	height:47%;
 	width:22%;
 	display:none;	
+	z-index:102;	
+
 }
 #cont4{
 	position:fixed;
 	top:45%;
-	left:60%;
+	left:47%;
 	height:47%;
 	width:22%;	
 	display:none;
-}#cont5{
+	z-index:103;	
+
+}
+#cont5{
 	position:fixed;
 	top:45%;
-	left:75%;
+	left:60%;
 	height:47%;
 	width:20%;
-	display:none;	
+	display:none;
+	z-index:104;	
+}
+#cont6{
+	position:fixed;
+	top:45%;
+	left:74%;
+	height:47%;
+	width:20%;
+	display:none;
+	z-index:105;	
+	
 }
 .contentBox h1 {
 	font-size:32px;
@@ -83,9 +101,9 @@ body{
 }
 #mardi {
 	position:fixed;
-	top:21%;
-	left:12%;
-	width:25.3%;
+	top:15%;
+	left:14%;
+	width:20.5%;
 	height:100%;
 	z-index:98;
 }
@@ -131,7 +149,7 @@ body{
 	#cont2{
 		position:fixed;
 		top:45%;
-		left:20%;
+		left:18%;
 		height:47%;
 		width:30%;
 		display:none;	
@@ -139,7 +157,7 @@ body{
 	#cont3{
 		position:fixed;
 		top:45%;
-		left:40%;
+		left:29%;
 		height:47%;
 		width:30%;
 		display:none;	
@@ -147,7 +165,7 @@ body{
 	#cont4{
 		position:fixed;
 		top:45%;
-		left:52%;
+		left:44%;
 		height:47%;
 		width:30%;	
 		display:none;
@@ -155,7 +173,15 @@ body{
 	#cont5{
 		position:fixed;
 		top:45%;
-		left:66%;
+		left:55%;
+		height:47%;
+		width:30%;
+		display:none;	
+	}
+	#cont6{
+		position:fixed;
+		top:45%;
+		left:68%;
 		height:47%;
 		width:30%;
 		display:none;	
@@ -164,7 +190,7 @@ body{
 /*-------MEDIA QUERY: 1024(PORTRAIT)---------*/
 @media(max-width : 1024px) and (orientation:portrait){
 	/*-------CONTENT BOXES---------*/
-	#cont1, #cont2, #cont3, #cont4, #cont5{
+	#cont1, #cont2, #cont3, #cont4, #cont5, #cont6{
 		position:absolute;	
 		top:45%;
 		left:5%;
@@ -176,7 +202,7 @@ body{
 /*-------MEDIA QUERY: 768(LANDSCAPE)---------*/
 @media(max-width : 768px) and (orientation:landscape){
 	/*-------CONTENT BOXES---------*/
-	#cont1, #cont2, #cont3, #cont4, #cont5 {
+	#cont1, #cont2, #cont3, #cont4, #cont5, #cont6 {
 		top:45%;
 		left:5%;
 		height:47%;
@@ -187,7 +213,7 @@ body{
 /*-------MEDIA QUERY: 500(LANDSCAPE)---------*/
 @media(max-width : 500px) and (orientation:landscape){
 	/*-------CONTENT BOXES---------*/
-	#cont1, #cont2, #cont3, #cont4, #cont5 {
+	#cont1, #cont2, #cont3, #cont4, #cont5, #cont6 {
 		top:40%;
 		left:5%;
 		height:47%;
@@ -201,7 +227,7 @@ body{
 		font-size:14px;
 	}
 	/*-------CONTENT BOXES---------*/
-	#cont1, #cont2, #cont3, #cont4, #cont5 {
+	#cont1, #cont2, #cont3, #cont4, #cont5, #cont6 {
 		top:45%;
 		left:5%;
 		height:47%;
