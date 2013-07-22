@@ -1,6 +1,6 @@
 /*------AUTHOR: ONMEDIA.CO------*/
 
-/*------Ready fucntion for document------*/
+/*------Ready function for document------*/
 $(document).ready(function(){
 	/*------Local Variables for ready function-----*/
 	var currentService = getUrlVars()["id"];
@@ -14,7 +14,7 @@ $(document).ready(function(){
 	$("#service"+currentService).show();
 	$("#bgimage"+currentService).show();
 	
-	/*------Click fucntion for each services link------*/
+	/*------Click function for each services link------*/
 	$(".serviceLink").click(function(){
 		if (currentService != $(this).attr('id')){
 			currentService = $(this).attr('id');
@@ -24,7 +24,7 @@ $(document).ready(function(){
 		$(".dropdown-toggle").dropdown('toggle');
 	});
 	
-	/*------Click fucntion for left scroll button-----*/
+	/*------Click function for left scroll button-----*/
 	$("#leftscroll").click(function(){
 		if (currentService > 1) {
 			currentService--;
@@ -32,7 +32,7 @@ $(document).ready(function(){
 		}
 	});
 	
-	/*------Click fucntion for right scroll button-----*/
+	/*------Click function for right scroll button-----*/
 	$("#rightscroll").click(function(){
 		if (currentService < 4) {
 			currentService++;

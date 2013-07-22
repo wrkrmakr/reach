@@ -1,8 +1,8 @@
 /*------AUTHOR: ONMEDIA.CO------*/
 
-/*------Ready fucntion for document------*/
+/*------Ready function for document------*/
 $(document).ready(function(){
-	/*------Load fucntion for window------*/
+	/*------Load function for window------*/
 	$(window).load(function(){
 		$('#homeCarousel').carousel({
 			interval: 5000

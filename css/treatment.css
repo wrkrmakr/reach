@@ -7,6 +7,9 @@
 #bgimage2 {
 	background-image:url(../img/Treatment/fis.jpg);
 }
+#bgimage3 {
+	background-image:url(../img/Treatment/nat.jpg);
+}
 /*------MEDIA QUERY: 768(PORTRAIT)------*/
 @media(max-width : 768px) and (orientation:portrait){
 	/*------BACKGROUND IMAGES------*/
@@ -15,5 +18,8 @@
 	}
 	#bgimage2 {
 		background-image:url(../img/Treatment/fis_768.jpg);
+	}
+	#bgimage3 {
+		background-image:url(../img/Treatment/nat_768.jpg);
 	}	
 }

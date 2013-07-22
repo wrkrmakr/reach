@@ -1,21 +1,16 @@
 /*------AUTHOR: ONMEDIA.CO------*/
-html, body {
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-/*	background-color:#f4f4f4;*/
-	background-image:url(../img/coaches_bg.jpg);
-	background-size: cover;
-}
+
 #camps {
 	position:absolute;
-	color:#333;
 	margin:120px 0 200px;
 }
 
 #banner img{
 	width:100%;
+}
+
+.bgimage {
+	background-image:url(../img/coaches_bg.jpg);
 }
 
 h2 {

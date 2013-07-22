@@ -7,7 +7,7 @@ body{
 }
 /*-------BACKGROUND IMAGE---------*/
 #bgimage {
-	background-image:url(../img/coaches_bg.jpg);
+/*	background-image:url(../img/coaches_bg.jpg);*/
 }
 /*-------CONTENT CONTAINER---------*/
 .contentContainer{
@@ -76,37 +76,45 @@ body{
 #craig{
 	position:fixed;
 	top:15%;
-	left:-9%;
-	width:42%;
+	left:-14%;
+	width:40%;
 	height:100%;
+	z-index:99;
 }
-
+#mardi {
+	position:fixed;
+	top:21%;
+	left:12%;
+	width:25.3%;
+	height:100%;
+	z-index:98;
+}
 #jacob{
 	position:fixed;
 	top:15%;
-	left:25%;
-	width:19%;
+	left:32%;
+	width:17%;
 	height:100%;
 }
 #adena{
 	position:fixed;
 	top:15%;
-	left:45%;
-	width:20%;
+	left:51%;
+	width:18%;
 	height:100%;
 }
 #ben{
 	position:fixed;
 	top:15%;
-	left:58%;
-	width:32%;
+	left:64%;
+	width:29%;
 	height:100%;
 }
 #heather{
 	position:fixed;
 	top:15%;
-	left:73%;
-	width:38%;
+	left:79%;
+	width:36%;
 	height:100%;
 }
 /*-------MEDIA QUERY: 1024(LANDSCAPE)---------*/

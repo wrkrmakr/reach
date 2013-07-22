@@ -1,12 +1,12 @@
 /*------AUTHOR: ONMEDIA.CO------*/
 
-/*------Ready fucntion for document------*/
+/*------Ready function for document------*/
 $(document).ready(function(){
 	/*------Local Variables for ready function-----*/
 	var currentTreatment = getUrlVars()["id"];
 	
 	/*------Initial state for divs------*/
-	if (currentTreatment != 1 && currentTreatment != 2){
+	if (currentTreatment != 1 && currentTreatment != 2 && currentTreatment != 3){
 		currentTreatment = 1;
 	}
 	$('.contentBox').hide();
@@ -14,7 +14,7 @@ $(document).ready(function(){
 	$("#treatment"+currentTreatment).show();
 	$("#bgimage"+currentTreatment).show();
 	
-	/*------Click fucntion for each treatment link------*/
+	/*------Click function for each treatment link------*/
 	$(".treatmentLink").click(function(){
 		if (currentTreatment != $(this).attr('id')){
 			currentTreatment = $(this).attr('id');
@@ -24,7 +24,7 @@ $(document).ready(function(){
 		$(".dropdown-toggle").dropdown('toggle');
 	});
 	
-	/*------Click fucntion for left scroll button-----*/
+	/*------Click function for left scroll button-----*/
 	$("#leftscroll").click(function(){
 		if (currentTreatment > 1) {
 			currentTreatment--;
@@ -32,9 +32,9 @@ $(document).ready(function(){
 		}
 	});
 	
-	/*------Click fucntion for right scroll button-----*/
+	/*------Click function for right scroll button-----*/
 	$("#rightscroll").click(function(){
-		if (currentTreatment < 2) {
+		if (currentTreatment < 3) {
 			currentTreatment++;
 			changeContent();
 		}
@@ -70,7 +70,7 @@ $(document).ready(function(){
 	    return vars;
 	}
 	
-	/*------Function to change contect of services page-----*/
+	/*------Function to change content of services page-----*/
 	function changeContent() {
 		$('.contentBox:visible').hide("fade",200,function(){
 			$("#treatment"+currentTreatment).show("fade",200);
