@@ -44,7 +44,7 @@ a:focus {
 }
 #logo a img {
 	position: absolute;
-	top:5px;
+	top:10px;
 	left:50px;
 	width: 350px;
 }
