@@ -56,6 +56,16 @@
 	font-size:15px;
 	font-weight:400;
 }
+.textInfo a,
+a:link,
+a:visited {
+	color: #fff;
+	text-decoration: none;
+	outline:none;
+}
+.textInfo a:hover {
+	color: #666;
+}
 #parkingInfo{
 	display:inline-table;
 	width: 350px;	
