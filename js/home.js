@@ -31,7 +31,7 @@ $(document).ready(function(){
 			isLandscape();
 		}
 	});
-
+/*
 	function isPortrait() {
 		console.log("portrait");
 		$("#home1").attr("src","img/About/home-Image-1-768.jpg");
@@ -45,4 +45,5 @@ $(document).ready(function(){
 		$("#home2").attr("src","img/About/home-Image-2.jpg");
 		$("#home3").attr("src","img/About/home-Image-4.jpg");
 	}
+	*/
 });

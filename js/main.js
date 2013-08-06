@@ -2,5 +2,8 @@
 
 /*------Ready fucntion for document------*/
 $(document).ready(function(){
-	$(".contentBox").mCustomScrollbar({theme:"dark"});
+	$(".contentBox").mCustomScrollbar({
+      theme:"dark",
+      advanced:{ updateOnContentResize: true }
+   });
 });
