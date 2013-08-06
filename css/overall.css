@@ -195,7 +195,13 @@ a:focus {
 	text-decoration: none;
 	background-color: white;
 	background-image: none;
+	padding-left: 15px;
+}
+.dropdown-menu li a:hover{
+	color: #333;
 	border-left: 5px solid #ee4823;
+	background-color: white;
+	background-image: none;
 	padding-left: 15px;
 }
 /*.navbar-inverse .nav>li>a:focus,
