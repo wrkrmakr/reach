@@ -9,15 +9,6 @@ body{
 #bgimage {
 /*	background-image:url(../img/coaches_bg.jpg);*/
 }
-/*-------CONTENT CONTAINER---------*/
-.contentContainer{
-/*	background-color: rgba(255,255,255,0.8);*/
-	background-color:#fff;
-	zoom: 1;
-	filter: alpha(opacity=80);
-	opacity: 0.8;
-	border-bottom:8px solid #ee4823;
-}
 #cont1{
 	position:fixed;
 	top:45%;
