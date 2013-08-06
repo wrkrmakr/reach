@@ -9,6 +9,7 @@
 }
 #bgimage3 {
 	background-image:url(../img/Services/group.jpg);
+	background-position: center top;
 }
 #bgimage4 {
 	background-image:url(../img/Services/bio.jpg);
